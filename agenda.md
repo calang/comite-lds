@@ -1,4 +1,4 @@
-# Agenda.md
+# Agenda
 
 
 | Tema                  | Expone o dirige            | duración prevista |
