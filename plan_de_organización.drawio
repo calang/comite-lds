@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="7TjKbs9UnfZ1I__F5FCk">
+    <mxGraphModel dx="1015" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Enf6k-61ZdD9nLcUe7er-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Plan de Organización&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Comité de Vecinos de Lomas del Sol, Curridabat&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Enf6k-61ZdD9nLcUe7er-2" value="definir funciones y alcance de comisiones" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Enf6k-61ZdD9nLcUe7er-3" value="definir métodos y medios para comunicaciones&lt;div&gt;(Comunicación)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Enf6k-61ZdD9nLcUe7er-5" value="definir trámites y métodos para cada uno&lt;div&gt;(cada comisión)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Enf6k-61ZdD9nLcUe7er-7" value="definir herramientas por utilizar (tecnología)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="595" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Enf6k-61ZdD9nLcUe7er-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Enf6k-61ZdD9nLcUe7er-2" target="Enf6k-61ZdD9nLcUe7er-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="400" as="sourcePoint" />
+            <mxPoint x="810" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Enf6k-61ZdD9nLcUe7er-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Enf6k-61ZdD9nLcUe7er-2" target="Enf6k-61ZdD9nLcUe7er-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="400" as="sourcePoint" />
+            <mxPoint x="810" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Enf6k-61ZdD9nLcUe7er-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Enf6k-61ZdD9nLcUe7er-2" target="Enf6k-61ZdD9nLcUe7er-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="60" as="sourcePoint" />
+            <mxPoint x="560" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
