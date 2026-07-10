@@ -6,7 +6,6 @@ Este directorio está planteado como un proyecto Python, apoyado por Claude, en 
 
 <!-- TOC -->
 * [Formación del Comité Lomas del Sol](#formación-del-comité-lomas-del-sol)
-  * [Template Initialization](#template-initialization)
   * [Requirements](#requirements)
   * [Environment Setup](#environment-setup)
   * [Common commands](#common-commands)
@@ -16,16 +15,6 @@ Este directorio está planteado como un proyecto Python, apoyado por Claude, en 
   * [Project Layout](#project-layout)
   * [References](#references)
 <!-- TOC -->
-
-## Template Initialization
-
-This is a reusable template. When starting a new project from it:
-
-3. For uv environment manager:
-     - `make init`
-     - note: this removes `env.yml`
-4. Edit `.env` (created by `make init`) with project-specific values
-5. Remove this section from this README
 
 ## Requirements
 
