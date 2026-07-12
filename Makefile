@@ -72,10 +72,12 @@ lint:
 jupl:	ALWAYS
 	uv run jupyter lab &
 
-# target: %.docx - convert a Markdown file into a .docx via pandoc. Usage: make docs/agenda.docx
+# %.docx - convert a Markdown file into a .docx via pandoc. Usage: make docs/agenda.docx
 %.docx: %.md
 	pandoc $< -o $@
 
+# target: docxs - convert a series of Markdown files into a .docx via pandoc. Usage: make docxs
+docxs:	docs/agenda.docx
 
 # target push - sample docker image push, asking for passwords
 # push: TEMPUSR := $(shell mktemp)
