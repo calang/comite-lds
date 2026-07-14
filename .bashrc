@@ -30,6 +30,10 @@ done
 if [ -d .venv ]; then
     source .venv/bin/activate
 elif [ -f env.yml ]; then
+    which conda >/dev/null
+    if [ $? -eq 1 ]; then
+        conda_init
+    fi
     export CONDA_ENV_NAME=$(head -1 env.yml | cut -d ' ' -f 2)
     conda activate $CONDA_ENV_NAME
 fi
