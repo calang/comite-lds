@@ -1,16 +1,17 @@
 # Agenda
 Martes 14 de julio 2026
 
-| Tema                                   | Expone o dirige            | duración prevista |
-|----------------------------------------|----------------------------|-------------------|
-| Revisión de la agenda                  | Carlos                     | 2 min             |	
-| Revisión del acta anterior             | Beatriz                    | 10 min            |
-| Normas de Comunicación                 | Max                        | 20 min            |
-| Organización                           | Carlos                     | 20 min            |
-| Propuesta de Comisión de Tecnología    | Carlos                     | 20 min            |
-| Asuntos pendientes                     | Cada dirigente de comisión | 20 min            |
-| Otros asuntos                          | miembros presentes         | 10 min            |
-| Frecuencia de las reuniones del Comité | Carlos                     | 5 min             |
+| Tema                                       | Expone o dirige            | duración prevista |
+|--------------------------------------------|----------------------------|-------------------|
+| Revisión de la agenda                      | Carlos                     | 2 min             |	
+| Revisión del acta anterior                 | Beatriz                    | 10 min            |
+| Normas de Comunicación                     | Max                        | 20 min            |
+| Cambios a cuenta de correo y número Comité | Carina                     | 10 min            |
+| Organización                               | Carlos                     | 20 min            |
+| Propuesta de Comisión de Tecnología        | Carlos                     | 20 min            |
+| Asuntos pendientes en cada comisión        | Cada dirigente de comisión | 20 min            |
+| Otros asuntos                              | miembros presentes         | 10 min            |
+| Frecuencia de las reuniones del Comité     | Carlos                     | 5 min             |	
 
 ## Contenido previsto
 
