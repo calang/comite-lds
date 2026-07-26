@@ -1,28 +1,28 @@
-# Roadmap
+# Hoja de Ruta
 
-This describes the phases in the development of this solution.
+Esto describe las fases en el desarrollo de esta solución.
 
-Phases are intentionally small — each one is a shippable slice of work, independently reviewable and testable.
+Las fases son intencionalmente pequeñas — cada una es una porción de trabajo entregable, revisable y comprobable de forma independiente.
 
 ---
 
-## Phase 1 — [name or brief description of what is done here]
+## Fase 1 — Versión mínima inicial
 
-### Objective
+### Objetivo
 
-[Brief goal statement]
+[Breve declaración del objetivo]
 
-### Features
+### Funcionalidades
 
-- [ ] [new functionality to be implemented]
-- [ ] [new functionality to be implemented]
-- [ ] [new functionality to be implemented]
+- [ ] [nueva funcionalidad a implementar]
+- [ ] [nueva funcionalidad a implementar]
+- [ ] [nueva funcionalidad a implementar]
 
 
-## [Phase 2 — ... ]
+## [Fase 2 — ... ]
 
 [...]
 
 ---
 
-Later phases (not yet planned): [...].
+Fases posteriores (aún no planificadas): [...].
