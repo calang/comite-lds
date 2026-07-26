@@ -6,80 +6,80 @@ Este directorio está planteado como un proyecto Python, apoyado por Claude, en 
 
 <!-- TOC -->
 * [Formación del Comité Lomas del Sol](#formación-del-comité-lomas-del-sol)
-  * [Requirements](#requirements)
-  * [Environment Setup](#environment-setup)
-  * [Common commands](#common-commands)
+  * [Requisitos](#requisitos)
+  * [Configuración del entorno](#configuración-del-entorno)
+  * [Comandos comunes](#comandos-comunes)
     * [uv](#uv)
-  * [Coding Standards](#coding-standards)
-  * [Use of AI Coding Agents](#use-of-ai-coding-agents)
-  * [Project Layout](#project-layout)
-  * [References](#references)
+  * [Estándares de codificación](#estándares-de-codificación)
+  * [Uso de agentes de codificación con IA](#uso-de-agentes-de-codificación-con-ia)
+  * [Estructura del proyecto](#estructura-del-proyecto)
+  * [Referencias](#referencias)
 <!-- TOC -->
 
-## Requirements
+## Requisitos
 
-Linux, MacOS or WSL system with Python 3.14+
+Sistema Linux, MacOS o WSL con Python 3.14+
 
 - Python 3.14+
-- [`uv`](https://docs.astral.sh/uv/) — for the uv-based environment
+- [`uv`](https://docs.astral.sh/uv/) — para el entorno basado en uv
 
-## Environment Setup
+## Configuración del entorno
 
-- Key env vars are loaded from `.env` (generated from `.env_template`).
-- `PYTHONPATH` is set to `PROJECT_ROOT`.
-- Project-level `.bashrc` is sourced automatically when present in the project root (assumes `~/.bashrc` sources it).
-- GPU support (TensorFlow/PyTorch with CUDA) requires uncommenting env vars in `Makefile` and `.bashrc`, and adding the relevant packages in `env.yml` or `pyproject.toml`.
+- Las variables de entorno clave se cargan desde `.env` (generado a partir de `.env_template`).
+- `PYTHONPATH` se establece como `PROJECT_ROOT`.
+- El `.bashrc` a nivel de proyecto se ejecuta automáticamente cuando está presente en la raíz del proyecto (asume que `~/.bashrc` lo incluye).
+- El soporte de GPU (TensorFlow/PyTorch con CUDA) requiere descomentar variables de entorno en `Makefile` y `.bashrc`, y agregar los paquetes correspondientes en `env.yml` o `pyproject.toml`.
 
 
-## Common commands
+## Comandos comunes
 
 ### uv
 
 ```bash
-source .venv/bin/activate   # or prefix commands with: uv run
-make update-env             # runs uv sync (auto-detected)
-make rm-env                 # removes .venv (auto-detected)
+source .venv/bin/activate   # o anteponer a los comandos: uv run
+make update-env             # ejecuta uv sync (auto-detectado)
+make rm-env                 # elimina .venv (auto-detectado)
 ```
 
 ```bash
-pytest                                     # run all tests (conda: direct; uv: uv run pytest)
-pytest tests/path/test_foo.py::test_name   # run a single test
-pylint src/                                # lint (conda: direct; uv: uv run pylint src/)
-make jupl                                  # start Jupyter Lab (auto-detects backend)
-make help                                  # list all Makefile targets
+pytest                                     # ejecuta todas las pruebas (conda: directo; uv: uv run pytest)
+pytest tests/path/test_foo.py::test_name   # ejecuta una sola prueba
+pylint src/                                # linting (conda: directo; uv: uv run pylint src/)
+make jupl                                  # inicia Jupyter Lab (auto-detecta el backend)
+make help                                  # lista todos los objetivos del Makefile
 ```
 
-## Coding Standards
+## Estándares de codificación
 
-Encoded in the `python-standards` Claude skill.
+Definidos en el skill `python-standards` de Claude.
 
-Linting is configured in `pylintrc` using (Google Python Style Guide).
+El linting está configurado en `pylintrc` siguiendo la (Google Python Style Guide).
 
-## Use of AI Coding Agents
+## Uso de agentes de codificación con IA
 
-This project uses AI coding agents to assist in code generation, debugging, and documentation.
+Este proyecto usa agentes de codificación con IA para asistir en la generación de código, depuración y documentación.
 
-## Project Layout
+## Estructura del proyecto
 
 ```
-- .claude/ - configuration files for Claude API (if applicable)
-- data/         # datasets, preprocessed data, results
-- docs/         # documentation (system_architecture.md for architecture details)
-- experiments/  # experiment scripts and results
-- models/       # trained models and checkpoints
-- plans/        # work plans
+- .claude/ - archivos de configuración para la API de Claude (si aplica)
+- data/         # conjuntos de datos, datos preprocesados, resultados
+- docs/         # documentación (system_architecture.md para detalles de arquitectura)
+- experiments/  # scripts de experimentos y resultados
+- models/       # modelos entrenados y checkpoints
+- plans/        # planes de trabajo
 - scripts/      # scripts de uso auxiliar
-- src/          # source code (on PYTHONPATH as PROJECT_ROOT)
-- tests/        # unit tests
-- .bashrc       # project-level bash config (sourced by ~/.bashrc)
-- .env          # environment variables (created from .env_template)
-- .env_template # template for .env file
-- env.yml       # conda environment description (removed if using uv)
-- Makefile - makefile with commands for common tasks
-- pyproject.toml # uv environment description (removed if using conda)
-- requirements.txt  # complement for env.yml conda environment (removed if using uv)
+- src/          # código fuente (en PYTHONPATH como PROJECT_ROOT)
+- tests/        # pruebas unitarias
+- .bashrc       # configuración de bash a nivel de proyecto (incluida por ~/.bashrc)
+- .env          # variables de entorno (creado a partir de .env_template)
+- .env_template # plantilla para el archivo .env
+- env.yml       # descripción del entorno conda (se elimina si se usa uv)
+- Makefile - makefile con comandos para tareas comunes
+- pyproject.toml # descripción del entorno uv (se elimina si se usa conda)
+- requirements.txt  # complemento del entorno conda para env.yml (se elimina si se usa uv)
 ```
 
-## References
+## Referencias
 
 - [Spec-Driven Development with Coding Agents](https://www.deeplearning.ai/short-courses/spec-driven-development-with-coding-agents)
