@@ -4,6 +4,7 @@ Martes 14 de julio 2026
 | Tema                                       | Expone o dirige            | duración prevista |
 |--------------------------------------------|----------------------------|-------------------|
 | Revisión de la agenda                      | Carlos                     | 2 min             |	
+| Comprobación de Quorum y Asistencia        |                            |                   |
 | Revisión del acta anterior                 | Beatriz                    | 10 min            |
 | Normas de Comunicación                     | Max                        | 20 min            |
 | Cambios a cuenta de correo y número Comité | Carina                     | 10 min            |
