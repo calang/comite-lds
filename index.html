@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Comité de Vecinos de Lomas del Sol</title>
+<style>
+  body {
+    font-family: sans-serif;
+    max-width: 60rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    line-height: 1.5;
+  }
+  h1 { margin-bottom: 0.25rem; }
+  #filtro { width: 100%; padding: 0.5rem; margin: 1rem 0; font-size: 1rem; }
+  h2 { margin-top: 2rem; border-bottom: 1px solid #ccc; }
+  ul { list-style: none; padding: 0; }
+  li { padding: 0.25rem 0; }
+  .tipo { color: #666; font-size: 0.85em; margin-left: 0.5em; }
+</style>
+</head>
+<body>
+<h1>Comité de Vecinos de Lomas del Sol</h1>
+<p>Punto de referencia para los vecinos de Lomas del Sol: acceso centralizado a estatutos, actas, agendas y demás documentos del Comité de Vecinos.</p>
+<input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
+<h2>docs/comite</h2>
+<ul>
+  <li data-name="agenda"><a href="docs/comite/agenda.docx">agenda</a><span class="tipo">docx</span></li>
+  <li data-name="agenda"><a href="docs/comite/agenda.md">agenda</a><span class="tipo">md</span></li>
+  <li data-name="tareas_pendientes"><a href="docs/comite/tareas_pendientes.md">tareas_pendientes</a><span class="tipo">md</span></li>
+</ul>
+<h2>docs/comite/agenda-minutas</h2>
+<ul>
+  <li data-name="agenda-2026-07-14"><a href="docs/comite/agenda-minutas/agenda-2026-07-14.odt">agenda-2026-07-14</a><span class="tipo">odt</span></li>
+  <li data-name="comité  de representante de los vecinos de la a urbanizacion lomas del sol bis"><a href="docs/comite/agenda-minutas/COMITÉ  DE REPRESENTANTE DE LOS VECINOS DE LA A URBANIZACION LOMAS DEL SOL bis.pdf">COMITÉ  DE REPRESENTANTE DE LOS VECINOS DE LA A URBANIZACION LOMAS DEL SOL bis</a><span class="tipo">pdf</span></li>
+  <li data-name="doc-20260626-wa0049."><a href="docs/comite/agenda-minutas/DOC-20260626-WA0049..pdf">DOC-20260626-WA0049.</a><span class="tipo">pdf</span></li>
+  <li data-name="max estrategia_comunicacion_2026_ (1)"><a href="docs/comite/agenda-minutas/MAX Estrategia_Comunicacion_2026_ (1).pdf">MAX Estrategia_Comunicacion_2026_ (1)</a><span class="tipo">pdf</span></li>
+  <li data-name="minuta de la reunion   comité  lomas del sol 26 de junio agenda "><a href="docs/comite/agenda-minutas/MINUTA DE LA REUNION   COMITÉ  LOMAS DEL SOL 26 DE JUNIO AGENDA .pdf">MINUTA DE LA REUNION   COMITÉ  LOMAS DEL SOL 26 DE JUNIO AGENDA </a><span class="tipo">pdf</span></li>
+</ul>
+<h2>docs/comunidad</h2>
+<ul>
+  <li data-name="comisiones"><a href="docs/comunidad/comisiones.md">comisiones</a><span class="tipo">md</span></li>
+</ul>
+<script>
+document.getElementById("filtro").addEventListener("input", function (event) {
+  var query = event.target.value.toLowerCase();
+  document.querySelectorAll("li[data-name]").forEach(function (item) {
+    var visible = item.dataset.name.indexOf(query) !== -1;
+    item.style.display = visible ? "" : "none";
+  });
+});
+</script>
+</body>
+</html>

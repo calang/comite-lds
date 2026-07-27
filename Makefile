@@ -72,6 +72,10 @@ lint:
 jupl:	ALWAYS
 	uv run jupyter lab &
 
+# target: site - regenerate index.html from docs/comite and docs/comunidad
+site:
+	uv run python scripts/generate_index.py
+
 # %.docx - convert a Markdown file into a .docx via pandoc. Usage: make docs/agenda.docx
 %.docx: %.md
 	pandoc $< -o $@
@@ -90,7 +94,7 @@ docxs:	docs/comite/agenda.docx
 
 # ignore files with any of these names
 # so that the rules with those as target are always executed
-.PHONY: help show-vars init update-env rm-env lint jupl ALWAYS
+.PHONY: help show-vars init update-env rm-env lint jupl site ALWAYS
 
 # always do/refresh ALWAYS target
 ALWAYS:
