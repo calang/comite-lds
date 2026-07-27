@@ -4,6 +4,7 @@ description: >-
   a estatutos, actas, agendas y demás documentos del Comité de Vecinos.
 theme: minima
 
+
 exclude:
   - src/
   - specs/
