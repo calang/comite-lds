@@ -1,11 +1,11 @@
-# Formación del Comité Lomas del Sol
+# Comité Lomas del Sol
 
-Proyecto para reorganizar este esfuerzo.
+Proyecto para organizar este esfuerzo.
 
 Este directorio está planteado como un proyecto Python, apoyado por Claude, en caso de que sea de interés usar automatización basada en IA.
 
 <!-- TOC -->
-* [Formación del Comité Lomas del Sol](#formación-del-comité-lomas-del-sol)
+* [Comité Lomas del Sol](#comité-lomas-del-sol)
   * [Requisitos](#requisitos)
   * [Configuración del entorno](#configuración-del-entorno)
   * [Comandos comunes](#comandos-comunes)
@@ -69,6 +69,7 @@ Este proyecto usa agentes de codificación con IA para asistir en la generación
 - models/       # modelos entrenados y checkpoints
 - plans/        # planes de trabajo
 - scripts/      # scripts de uso auxiliar
+- specs/        # especificaciones de diseño y arquitectura
 - src/          # código fuente (en PYTHONPATH como PROJECT_ROOT)
 - tests/        # pruebas unitarias
 - .bashrc       # configuración de bash a nivel de proyecto (incluida por ~/.bashrc)
