@@ -79,7 +79,6 @@ Este proyecto usa agentes de codificación con IA para asistir en la generación
 - docs/         # documentación (system_architecture.md para detalles de arquitectura)
 - experiments/  # scripts de experimentos y resultados
 - models/       # modelos entrenados y checkpoints
-- plans/        # planes de trabajo, para el desarrollo de nuevas funcionalidades según roadmap (specs)
 - scripts/      # scripts de uso auxiliar
 - specs/        # especificaciones de diseño y arquitectura
 - src/          # código fuente (en PYTHONPATH como PROJECT_ROOT)
