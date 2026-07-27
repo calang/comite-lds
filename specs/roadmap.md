@@ -10,13 +10,12 @@ Las fases son intencionalmente pequeñas — cada una es una porción de trabajo
 
 ### Objetivo
 
-[Breve declaración del objetivo]
+Proveer acceso a la documentación bajo el docs/comite/ y docs/comunidad/
+a través de una página web (en html) de forma organizada, con un mecanismo de búsqueda y recuperación de información.
 
 ### Funcionalidades
 
-- [ ] [nueva funcionalidad a implementar]
-- [ ] [nueva funcionalidad a implementar]
-- [ ] [nueva funcionalidad a implementar]
+- [ ] Presentar una página web inicial con una descripción del sitio, un índice de documentos y enlaces a los mismos.
 
 
 ## [Fase 2 — ... ]
