@@ -1,3 +1,8 @@
+---
+layout: default
+title: Agenda
+---
+
 # Agenda
 Martes 14 de julio 2026
 
