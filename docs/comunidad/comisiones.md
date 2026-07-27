@@ -1,3 +1,8 @@
+---
+layout: default
+title: Comisiones
+---
+
 # Comisiones
 
 Este archivo describe el alcance de cada una de las comisiones creadas bajo el Comité de Vecinos de Lomas del Sol

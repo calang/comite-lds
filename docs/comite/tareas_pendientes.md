@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tareas pendientes
+---
+
 # Tareas pendientes
 
 
