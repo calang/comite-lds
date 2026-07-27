@@ -15,7 +15,7 @@ a través de una página web (en html) de forma organizada, con un mecanismo de 
 
 ### Funcionalidades
 
-- [ ] Presentar una página web inicial con una descripción del sitio, un índice de documentos y enlaces a los mismos.
+- [x] Presentar una página web inicial con una descripción del sitio, un índice de documentos y enlaces a los mismos.
 
 
 ## [Fase 2 — ... ]
