@@ -6,6 +6,7 @@ theme: minima
 
 exclude:
   - src/
+  - specs/
   - scripts/
   - tests/
   - experiments/
