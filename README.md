@@ -11,6 +11,7 @@ La motivación para cumplir con ese propósito es que la comunidad de Lomas del 
   * [Configuración del entorno](#configuración-del-entorno)
   * [Comandos comunes](#comandos-comunes)
     * [uv](#uv)
+    * [Comandos de pruebas](#comandos-de-pruebas)
   * [Estándares de codificación](#estándares-de-codificación)
   * [Uso de agentes de codificación con IA](#uso-de-agentes-de-codificación-con-ia)
   * [Estructura del proyecto](#estructura-del-proyecto)
@@ -50,6 +51,8 @@ make update-env             # ejecuta uv sync (auto-detectado)
 make rm-env                 # elimina .venv (auto-detectado)
 ```
 
+### Comandos de pruebas
+
 ```bash
 pytest                                     # ejecuta todas las pruebas (conda: directo; uv: uv run pytest)
 pytest tests/path/test_foo.py::test_name   # ejecuta una sola prueba
@@ -71,7 +74,7 @@ Este proyecto usa agentes de codificación con IA para asistir en la generación
 ## Estructura del proyecto
 
 ```
-- .claude/ - archivos de configuración para la API de Claude (si aplica)
+- .claude/      # archivos de configuración para la API de Claude (si aplica)
 - data/         # conjuntos de datos, datos preprocesados, resultados
 - docs/         # documentación (system_architecture.md para detalles de arquitectura)
 - experiments/  # scripts de experimentos y resultados
@@ -84,10 +87,8 @@ Este proyecto usa agentes de codificación con IA para asistir en la generación
 - .bashrc       # configuración de bash a nivel de proyecto (incluida por ~/.bashrc)
 - .env          # variables de entorno (creado a partir de .env_template)
 - .env_template # plantilla para el archivo .env
-- env.yml       # descripción del entorno conda (se elimina si se usa uv)
 - Makefile - makefile con comandos para tareas comunes
 - pyproject.toml # descripción del entorno uv (se elimina si se usa conda)
-- requirements.txt  # complemento del entorno conda para env.yml (se elimina si se usa uv)
 ```
 
 ## Referencias
