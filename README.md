@@ -6,7 +6,8 @@ La motivación para cumplir con ese propósito es que la comunidad de Lomas del 
 
 <!-- TOC -->
 * [Comité Lomas del Sol](#comité-lomas-del-sol)
-  * [Requisitos](#requisitos)
+  * [Funciones](#funciones)
+  * [Requisitos Técnicos](#requisitos-técnicos)
   * [Configuración del entorno](#configuración-del-entorno)
   * [Comandos comunes](#comandos-comunes)
     * [uv](#uv)
