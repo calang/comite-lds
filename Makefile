@@ -77,7 +77,7 @@ jupl:	ALWAYS
 	pandoc $< -o $@
 
 # target: docxs - convert a series of Markdown files into a .docx via pandoc. Usage: make docxs
-docxs:	docs/comunidad/agenda.docx
+docxs:	docs/comite/agenda.docx
 
 # target push - sample docker image push, asking for passwords
 # push: TEMPUSR := $(shell mktemp)
