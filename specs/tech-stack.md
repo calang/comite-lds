@@ -4,15 +4,16 @@ El proyecto es, hoy, un conjunto de documentos Markdown versionados en Git (acta
 
 ## Core
 
-| Layer              | Choice                        | Rationale                                                                                        |
-|--------------------|-------------------------------|--------------------------------------------------------------------------------------------------|
-| Language           | Python (gestionado con `uv`)  | Ya elegido en `pyproject.toml`; sin dependencias propias todavía porque `src/` está vacío        |
-| Front-end          | Ninguno                       | El contenido se consume como Markdown plano en el repositorio, no como sitio web                 |
-| Document Storage   | Markdown + PDFs en Git        | `agenda.md`, `comisiones.md` y PDFs de documentos municipales formales son la fuente de verdad   |
-| Document Retrieval | Git + búsqueda de texto plano | No hay base de datos ni motor de búsqueda; se navega por archivos y `grep`/lectura directa       |
-| Server framework   | Ninguno                       | No existe un servicio en ejecución; no hay backend que exponer                                   |
-| CI/CD Tools        | Ninguno todavía               | No configurado; posible necesidad futura si se agrega código en `src/`                           |
-| Deployment tools   | Ninguno                       | No hay nada que desplegar; el proyecto no es un servicio                                         |
+| Layer              | Choice                        | Rationale                                                                                                   |
+|--------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Language           | Python (gestionado con `uv`)  | Ya elegido en `pyproject.toml`; sin dependencias propias todavía porque `src/` está vacío                   |
+| Front-end          | HTML estático generado (sin framework) | `index.html` generado por `scripts/generate_index.py` (`make site`); CSS y JS embebidos, sin dependencias   |
+| Document Storage   | Markdown + PDFs en Git        | `agenda.md`, `comisiones.md` y PDFs de documentos municipales formales son la fuente de verdad              |
+| Document Retrieval | Índice HTML + filtro JS del lado cliente | `index.html` lista los documentos de `docs/` y permite filtrar por nombre de archivo; no busca contenido    |
+| Data Base          | SQLlite                       | Solo se necesita para bajo volumen de eventuales listas de contactos y vectores de pocos (<1000) documentos |
+| Server framework   | Ninguno                       | No existe un servicio en ejecución; no hay backend que exponer                                              |
+| CI/CD Tools        | Ninguno todavía               | No configurado; posible necesidad futura si se agrega código en `src/`                                      |
+| Deployment tools   | Ninguno                       | No hay nada que desplegar; el proyecto no es un servicio                                                    |
 
 
 ## Data
