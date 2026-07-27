@@ -1,0 +1,19 @@
+title: Comité de Vecinos de Lomas del Sol
+description: >-
+  Punto de referencia para los vecinos de Lomas del Sol: acceso centralizado
+  a estatutos, actas, agendas y demás documentos del Comité de Vecinos.
+theme: minima
+
+exclude:
+  - src/
+  - scripts/
+  - tests/
+  - experiments/
+  - prompts/
+  - data/
+  - models/
+  - docs/dev/
+  - Makefile
+  - pyproject.toml
+  - uv.lock
+  - pylintrc

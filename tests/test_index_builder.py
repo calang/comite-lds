@@ -35,10 +35,28 @@ def test_scan_documents_finds_all_non_hidden_files(fake_repo):
 
     links = {entry.link for entry in entries}
     assert links == {
-        "docs/comite/comisiones.md",
+        "docs/comite/comisiones.html",
         "docs/comite/agenda-minutas/minuta.pdf",
-        "docs/comunidad/emprendimientos & vecinos.md",
+        "docs/comunidad/emprendimientos & vecinos.html",
     }
+
+
+def test_scan_documents_links_markdown_to_rendered_html(fake_repo):
+    entries = index_builder.scan_documents(fake_repo)
+
+    md_entries = [entry for entry in entries if entry.name == "comisiones"]
+    assert len(md_entries) == 1
+    assert md_entries[0].link == "docs/comite/comisiones.html"
+    assert md_entries[0].extension == "html"
+
+
+def test_scan_documents_leaves_non_markdown_extension_untouched(fake_repo):
+    entries = index_builder.scan_documents(fake_repo)
+
+    pdf_entries = [entry for entry in entries if entry.name == "minuta"]
+    assert len(pdf_entries) == 1
+    assert pdf_entries[0].link == "docs/comite/agenda-minutas/minuta.pdf"
+    assert pdf_entries[0].extension == "pdf"
 
 
 def test_scan_documents_skips_hidden_files(fake_repo):

@@ -7,13 +7,13 @@ El proyecto es, hoy, un conjunto de documentos Markdown versionados en Git (acta
 | Layer              | Choice                        | Rationale                                                                                                   |
 |--------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Language           | Python (gestionado con `uv`)  | Ya elegido en `pyproject.toml`; sin dependencias propias todavía porque `src/` está vacío                   |
-| Front-end          | HTML estático generado (sin framework) | `index.html` generado por `scripts/generate_index.py` (`make site`); CSS y JS embebidos, sin dependencias   |
+| Front-end          | HTML estático generado + Jekyll (theme `minima`) | `index.html` generado por `scripts/generate_index.py` (`make site`, CSS/JS embebidos); los `.md` de `docs/comite/` y `docs/comunidad/` llevan front matter y Jekyll los renderiza a HTML al desplegar   |
 | Document Storage   | Markdown + PDFs en Git        | `agenda.md`, `comisiones.md` y PDFs de documentos municipales formales son la fuente de verdad              |
 | Document Retrieval | Índice HTML + filtro JS del lado cliente | `index.html` lista los documentos de `docs/` y permite filtrar por nombre de archivo; no busca contenido    |
 | Data Base          | SQLlite                       | Solo se necesita para bajo volumen de eventuales listas de contactos y vectores de pocos (<1000) documentos |
 | Server framework   | Ninguno                       | No existe un servicio en ejecución; no hay backend que exponer                                              |
-| CI/CD Tools        | Ninguno todavía               | No configurado; posible necesidad futura si se agrega código en `src/`                                      |
-| Deployment tools   | Ninguno                       | No hay nada que desplegar; el proyecto no es un servicio                                                    |
+| CI/CD Tools        | GitHub Actions                | `.github/workflows/pages.yml`: build con `actions/jekyll-build-pages`, deploy con `actions/deploy-pages`, disparado en push a `main` sobre `docs/**` o `index.html`  |
+| Deployment tools   | GitHub Pages (Jekyll)         | Sitio estático publicado en `https://calang.github.io/comite-lds/`; `_config.yml` en la raíz define theme (`minima`) y exclusiones                                  |
 
 
 ## Data
@@ -40,6 +40,6 @@ No hay un modelo de datos estructurado: el contenido vive en archivos Markdown e
 
 - **conda** — el proyecto migró explícitamente a `uv`; `env.yml`/`requirements.txt` son remanentes vestigiales de la plantilla que `make init` elimina
 - **Base de datos** — no hace falta; la fuente de verdad son archivos Markdown versionados en Git
-- **Framework web / servicio desplegado** — no existe todavía; el scaffold (`src/`, `scripts/`, `experiments/`) existe por si se necesita automatización asistida por IA más adelante, pero no hay nada construido
+- **Framework web / backend** — no existe; lo que se despliega es un sitio estático (GitHub Pages + Jekyll), sin servidor propio ni lógica de aplicación. El scaffold (`src/`, `scripts/`, `experiments/`) existe por si se necesita automatización asistida por IA más adelante, pero no hay nada construido
 - **ORM** — no aplica sin base de datos
 
