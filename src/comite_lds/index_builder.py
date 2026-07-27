@@ -108,12 +108,19 @@ def scan_documents(
         for path in base.rglob("*"):
             if not path.is_file() or path.name.startswith("."):
                 continue
+            extension = path.suffix.lstrip(".").lower()
+            link = path.relative_to(repo_root).as_posix()
+            if extension == "md":
+                # Con front matter, Jekyll convierte el .md a .html al
+                # desplegar el sitio; el índice debe enlazar a ese artefacto.
+                extension = "html"
+                link = link[: -len("md")] + "html"
             entries.append(
                 DocumentEntry(
                     name=path.stem,
                     folder=path.parent.relative_to(repo_root).as_posix(),
-                    extension=path.suffix.lstrip(".").lower(),
-                    link=path.relative_to(repo_root).as_posix(),
+                    extension=extension,
+                    link=link,
                 )
             )
     entries.sort(key=lambda entry: (entry.folder, entry.name.lower()))
