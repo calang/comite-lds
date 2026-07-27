@@ -2,6 +2,7 @@
 """Genera index.html a partir de docs/comite y docs/comunidad."""
 
 import logging
+import os
 import pathlib
 
 from src.comite_lds import index_builder
@@ -14,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 def main():
     """Escanea docs/ y escribe index.html en la raíz del repositorio."""
-    repo_root = pathlib.Path(__file__).resolve().parent.parent
+    repo_root = pathlib.Path(os.environ["PROJECT_ROOT"])
     entries = index_builder.scan_documents(repo_root)
     output_path = repo_root / "index.html"
     output_path.write_text(index_builder.render_html(entries), encoding="utf-8")

@@ -64,9 +64,13 @@ rm-env:
 # Utilities
 # ============================================================
 
+# target: tests - run all available tests with pytest
+tests:	ALWAYS
+	uv run pytest
+
 # target: lint - run pylint with docparams plugin to check for missing docstring parameters
-lint:
-	pylint --load-plugins=pylint.extensions.docparams scripts src
+lint:	ALWAYS
+	uv run pylint --load-plugins=pylint.extensions.docparams scripts src
 
 # target: jupl - start jupyter lab server
 jupl:	ALWAYS
