@@ -1,8 +1,8 @@
 # Comité Lomas del Sol
 
-Proyecto para organizar este esfuerzo.
+El propósito de este proyecto es proveer un punto de referencia para los vecinos de Lomas del Sol, con el fin de organizar y facilitar la comunicación, colaboración y participación en actividades comunitarias.
 
-Este directorio está planteado como un proyecto Python, apoyado por Claude, en caso de que sea de interés usar automatización basada en IA.
+La motivación para cumplir con ese propósito es que la comunidad de Lomas del Sol se beneficie de un espacio centralizado donde los vecinos puedan acceder a información relevante, compartir ideas y coordinar esfuerzos para mejorar la calidad de vida en el vecindario.
 
 <!-- TOC -->
 * [Comité Lomas del Sol](#comité-lomas-del-sol)
@@ -16,7 +16,15 @@ Este directorio está planteado como un proyecto Python, apoyado por Claude, en 
   * [Referencias](#referencias)
 <!-- TOC -->
 
-## Requisitos
+## Funciones
+
+La misión, hoja de ruta y plataforma tecnológica de este proyecto se describen en los documentos
+- [mission.md](specs/mission.md)
+- [roadmap.md](specs/roadmap.md)
+- [tech-stack.md](specs/tech-stack.md)
+
+
+## Requisitos Técnicos
 
 Sistema Linux, MacOS o WSL con Python 3.14+
 
