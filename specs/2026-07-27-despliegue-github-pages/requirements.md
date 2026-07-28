@@ -38,13 +38,15 @@ Todo archivo `.md` indexado se sirve renderizado a HTML, no como texto plano.
 ## Decisiones
 
 - **Mecanismo de render**: Jekyll nativo de GitHub Pages — cero build propio
-  en el repo. Cada `.md` a renderizar necesita front matter YAML mínimo
-  (`---\nlayout: default\ntitle: ...\n---`); sin front matter, Jekyll lo
-  copia como archivo estático sin convertir (limitación conocida de Jekyll:
-  `defaults:` en `_config.yml` no puede activar la conversión de un archivo
-  que no tiene al menos el marcador `---`). Por eso el front matter se agrega
-  a mano en cada `.md` existente, y queda como convención documentada para
-  `.md` nuevos.
+  en el repo. **Corrección post-implementación**: se asumió inicialmente que
+  un `.md` sin front matter quedaba sin convertir; en la práctica, el gem
+  `github-pages` trae activados por defecto `jekyll-optional-front-matter` y
+  `jekyll-titles-from-headings`, que convierten y titulan **cualquier** `.md`
+  del repo tenga o no front matter. El front matter que se agrega a mano en
+  cada `.md` existente controla el `layout` y el `title`, no si se convierte.
+  Lo que sí controla qué se publica es `exclude:` en `_config.yml` (qué `.md`
+  no debe ni compilarse) y `header_pages:` (qué páginas aparecen en la nav de
+  `minima`) — ver detalle en `.claude/CLAUDE.md`.
 - **Theme**: `minima` (el theme por defecto del gem `github-pages`, sin
   configuración ni dependencia propia) con `layout: default` — da HTML válido
   (charset, título de pestaña) sin escribir layouts Jekyll a mano.

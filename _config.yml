@@ -4,6 +4,12 @@ description: >-
   a estatutos, actas, agendas y demás documentos del Comité de Vecinos.
 theme: minima
 
+# Vacío a propósito: sin esto, minima lista en la nav toda página con
+# título que Jekyll encuentre, sin importar qué otros .md del repo termine
+# procesando (el gem github-pages activa jekyll-optional-front-matter, que
+# convierte a HTML cualquier .md tenga o no front matter).
+header_pages: []
+
 exclude:
   - src/
   - specs/
@@ -18,3 +24,4 @@ exclude:
   - pyproject.toml
   - uv.lock
   - pylintrc
+  - README.md
