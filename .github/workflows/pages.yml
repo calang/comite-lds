@@ -6,6 +6,7 @@ on:
     paths:
       - "docs/**"
       - "index.html"
+      - "_config.yml"
   workflow_dispatch:
 
 permissions:
