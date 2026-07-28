@@ -4,11 +4,15 @@ description: >-
   a estatutos, actas, agendas y demás documentos del Comité de Vecinos.
 theme: minima
 
-# Vacío a propósito: sin esto, minima lista en la nav toda página con
-# título que Jekyll encuentre, sin importar qué otros .md del repo termine
-# procesando (el gem github-pages activa jekyll-optional-front-matter, que
-# convierte a HTML cualquier .md tenga o no front matter).
-header_pages: []
+# Sin esto, minima lista en la nav toda página con título que Jekyll
+# encuentre, sin importar qué otros .md del repo termine procesando (el gem
+# github-pages activa jekyll-optional-front-matter, que convierte a HTML
+# cualquier .md tenga o no front matter). Un path inexistente ("__none__")
+# fuerza una lista sin coincidencias, es decir sin enlaces en la nav — una
+# lista vacía ([]) no sirve: el filtro `default` de Liquid la trata como
+# "sin definir" y minima vuelve a listar todas las páginas.
+header_pages:
+  - __none__
 
 exclude:
   - src/
