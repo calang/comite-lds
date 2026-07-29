@@ -16,3 +16,4 @@ header_pages:
 
 exclude:
   - dev/
+  - draft/

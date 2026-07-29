@@ -21,6 +21,7 @@ Este archivo describe el alcance de cada una de las comisiones creadas bajo el C
 ## 1. Comisión Infraestructura
 
 Dirige: Beatriz Pérez
+
 Apoyan: Mariano Ureña, Max
 
 Responsable de identificar, priorizar y dar seguimiento a las necesidades de infraestructura de la comunidad, incluyendo parques, aceras, calles, áreas comunes, iluminación, señalización, mobiliario urbano y demás obras de mejora. Asimismo, coordinará gestiones ante instituciones públicas y privadas, dará seguimiento a proyectos en ejecución y mantendrá informados a los vecinos sobre los avances y necesidades detectadas
@@ -29,7 +30,7 @@ Responsable de identificar, priorizar y dar seguimiento a las necesidades de inf
 
 Dirige: Max
 
-Misión: definir métodos y procedimientos para manejar la comunicación
+Define métodos y procedimientos para manejar la comunicación
 - entre miembros del comité y las comisiones
 - entre el comité, comisiones y cualquier ente externo como Municipalidad de Curridabat, Fuerza Pública, AyA, CNFL, CONAVI, etc
 
@@ -38,7 +39,7 @@ Objetivo: ser la comisión que facilite y agilice la comunicación entre el comi
 Medidas propuestas:
 
 - Sistema centralizado de gestión de quejas vía teléfono del comité
-- Coordinar con otras comisiones la linea de comunicacion en temas especificos como infraestructura y seguridad
+- Coordinar con otras comisiones la línea de comunicación en temas específicos como infraestructura y seguridad
 - Protocolo de moderación claro y sostenible
 - Optimización de estructura actual de grupos
 - Acuerdo formal de confidencialidad para miembros del comité
@@ -46,8 +47,10 @@ Medidas propuestas:
 
 
 ## 3. Comisión de Tecnología
+
 Dirige: Carlos Lang
-Le apoyan: Erick
+
+Le apoyan: Erick Villalta
 
 - Definir herramientas de tecnología digital para facilitar el funcionamiento de los grupos
 - Implementar dichas herramientas, en forma práctica con costos mínimos.
@@ -57,13 +60,18 @@ Le apoyan: Erick
 Dirige: Carina Cervantes y Andrea Montero
 
 ## 5. Comisión de Salud y Bienestar
+
 Dirige: Mariano Ureña
+
 Le apoyan: Carina Cervantes y Erick
 
 ## 7. Comisión de Bienestar Animal
 Dirige: Por definir
+
 Apoyan: Carina Cervantes
 
 ## Comisión de Seguridad - Confidencial
-Dirige: Confidencial
+Los miembros de esta comisión son confidenciales y no se publican en este documento.
+
+La comisión de seguridad tiene como objetivo principal apoyar la seguridad y protección de los vecinos y sus propiedades, así como coordinar con las autoridades locales y fuerzas de seguridad para implementar medidas preventivas y reactivas ante situaciones de riesgo.
 

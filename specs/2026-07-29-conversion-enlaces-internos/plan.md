@@ -8,7 +8,7 @@
      (`tareas_pendientes.md`, mismo directorio).
 1.2. En `docs/comite/agenda.md`, en la fila/sección "Propuesta de Comisión de
      Tecnología", agregar un enlace con ancla hacia la sección
-     correspondiente de `docs/comunidad/comisiones.md`
+     correspondiente de `../../docs/comunidad/comisiones.md`
      (`../comunidad/comisiones.md#3-comisión-de-tecnología`), confirmando
      antes el slug exacto que genera `kramdown` para ese encabezado (mismo
      patrón ya usado en el TOC manual de `comisiones.md`).
