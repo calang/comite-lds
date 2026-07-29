@@ -10,11 +10,18 @@ logger = logging.getLogger(__name__)
 
 INDEXED_DIRS = ("comite", "comunidad")
 
-SITE_DESCRIPTION = (
-    "Punto de referencia para los vecinos de Lomas del Sol: acceso "
-    "centralizado a estatutos, actas, agendas y demás documentos del "
-    "Comité de Vecinos."
+DESCRIPTION_PARA_LIST = [
+    "Punto de referencia para los vecinos de Lomas del Sol, Curridabat."
+    ,"Listas de contacto para negocios, trámites y procesos comunitarios."
+    ,"Acceso centralizado a estatutos, actas, agendas y demás documentos del "
+     "Comité de Vecinos."
+]
+
+SITE_DESCRIPTION = "".join(
+    "".join(["<p>", html.escape(desc), "</p>\n"])
+    for desc in DESCRIPTION_PARA_LIST
 )
+
 
 _PAGE_TEMPLATE = string.Template("""\
 <!doctype html>
@@ -40,7 +47,7 @@ _PAGE_TEMPLATE = string.Template("""\
 </head>
 <body>
 <h1>Comité de Vecinos de Lomas del Sol</h1>
-<p>$description</p>
+$description
 <input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
 $sections
 <script>
@@ -128,13 +135,14 @@ def scan_documents(
 
 
 def render_html(
-    entries: list[DocumentEntry], description: str = SITE_DESCRIPTION
+    entries: list[DocumentEntry],
+    description: str = SITE_DESCRIPTION
 ) -> str:
     """Genera el HTML completo del índice a partir de las entradas escaneadas.
 
     Args:
         entries: Lista de DocumentEntry a listar en el índice.
-        description: Texto descriptivo del sitio a mostrar en el encabezado.
+        description: Texto descriptivo del sitio.
 
     Returns:
         El documento HTML completo, como string.
@@ -152,7 +160,7 @@ def render_html(
     ]
 
     return _PAGE_TEMPLATE.substitute(
-        description=html.escape(description),
+        description=description,
         sections="\n".join(sections),
     )
 
