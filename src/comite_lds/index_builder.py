@@ -1,4 +1,4 @@
-"""Escanea docs/comite y docs/comunidad para generar un índice HTML estático."""
+"""Escanea comite/ y comunidad/ (bajo docs/) para generar un índice HTML."""
 
 import dataclasses
 import html
@@ -8,7 +8,7 @@ import string
 
 logger = logging.getLogger(__name__)
 
-INDEXED_DIRS = ("docs/comite", "docs/comunidad")
+INDEXED_DIRS = ("comite", "comunidad")
 
 SITE_DESCRIPTION = (
     "Punto de referencia para los vecinos de Lomas del Sol: acceso "
@@ -77,7 +77,7 @@ class DocumentEntry:
         name: Nombre del archivo sin extensión.
         folder: Ruta relativa de la carpeta contenedora.
         extension: Extensión del archivo, sin el punto, en minúsculas.
-        link: Ruta relativa desde la raíz del repositorio hasta el archivo.
+        link: Ruta relativa desde docs/ (raíz del sitio Jekyll) al archivo.
     """
 
     name: str
@@ -87,21 +87,21 @@ class DocumentEntry:
 
 
 def scan_documents(
-    repo_root: pathlib.Path, indexed_dirs: tuple[str, ...] = INDEXED_DIRS
+    docs_root: pathlib.Path, indexed_dirs: tuple[str, ...] = INDEXED_DIRS
 ) -> list[DocumentEntry]:
     """Escanea recursivamente los directorios indexados en busca de documentos.
 
     Args:
-        repo_root: Ruta a la raíz del repositorio.
-        indexed_dirs: Rutas relativas a `repo_root` a escanear.
+        docs_root: Ruta a docs/, la raíz del sitio Jekyll.
+        indexed_dirs: Rutas relativas a `docs_root` a escanear.
 
     Returns:
         Lista de DocumentEntry, ordenada por carpeta y luego por nombre.
     """
-    repo_root = pathlib.Path(repo_root)
+    docs_root = pathlib.Path(docs_root)
     entries = []
     for indexed_dir in indexed_dirs:
-        base = repo_root / indexed_dir
+        base = docs_root / indexed_dir
         if not base.is_dir():
             logger.warning("Directorio indexado no encontrado: %s", base)
             continue
@@ -109,7 +109,7 @@ def scan_documents(
             if not path.is_file() or path.name.startswith("."):
                 continue
             extension = path.suffix.lstrip(".").lower()
-            link = path.relative_to(repo_root).as_posix()
+            link = path.relative_to(docs_root).as_posix()
             if extension == "md":
                 # Con front matter, Jekyll convierte el .md a .html al
                 # desplegar el sitio; el índice debe enlazar a ese artefacto.
@@ -118,7 +118,7 @@ def scan_documents(
             entries.append(
                 DocumentEntry(
                     name=path.stem,
-                    folder=path.parent.relative_to(repo_root).as_posix(),
+                    folder=path.parent.relative_to(docs_root).as_posix(),
                     extension=extension,
                     link=link,
                 )
