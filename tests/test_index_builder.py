@@ -9,25 +9,26 @@ from src.comite_lds import index_builder
 
 @pytest.fixture
 def fake_repo(tmp_path):
-    """Crea un árbol de repositorio de prueba con docs/comite y docs/comunidad.
+    """Crea un árbol docs/ de prueba con comite/ y comunidad/.
 
     Args:
         tmp_path: Directorio temporal provisto por pytest.
 
     Returns:
-        La ruta a la raíz del repositorio de prueba.
+        La ruta a docs/ del árbol de prueba (raíz del sitio Jekyll).
     """
-    comite = tmp_path / "docs" / "comite" / "agenda-minutas"
+    docs_root = tmp_path / "docs"
+    comite = docs_root / "comite" / "agenda-minutas"
     comite.mkdir(parents=True)
-    (tmp_path / "docs" / "comite" / "comisiones.md").write_text("contenido")
+    (docs_root / "comite" / "comisiones.md").write_text("contenido")
     (comite / "minuta.pdf").write_text("contenido")
     (comite / ".gitkeep").write_text("")
 
-    comunidad = tmp_path / "docs" / "comunidad"
+    comunidad = docs_root / "comunidad"
     comunidad.mkdir(parents=True)
     (comunidad / "emprendimientos & vecinos.md").write_text("contenido")
 
-    return tmp_path
+    return docs_root
 
 
 def test_scan_documents_finds_all_non_hidden_files(fake_repo):
@@ -35,9 +36,9 @@ def test_scan_documents_finds_all_non_hidden_files(fake_repo):
 
     links = {entry.link for entry in entries}
     assert links == {
-        "docs/comite/comisiones.html",
-        "docs/comite/agenda-minutas/minuta.pdf",
-        "docs/comunidad/emprendimientos & vecinos.html",
+        "comite/comisiones.html",
+        "comite/agenda-minutas/minuta.pdf",
+        "comunidad/emprendimientos & vecinos.html",
     }
 
 
@@ -46,7 +47,7 @@ def test_scan_documents_links_markdown_to_rendered_html(fake_repo):
 
     md_entries = [entry for entry in entries if entry.name == "comisiones"]
     assert len(md_entries) == 1
-    assert md_entries[0].link == "docs/comite/comisiones.html"
+    assert md_entries[0].link == "comite/comisiones.html"
     assert md_entries[0].extension == "html"
 
 
@@ -55,7 +56,7 @@ def test_scan_documents_leaves_non_markdown_extension_untouched(fake_repo):
 
     pdf_entries = [entry for entry in entries if entry.name == "minuta"]
     assert len(pdf_entries) == 1
-    assert pdf_entries[0].link == "docs/comite/agenda-minutas/minuta.pdf"
+    assert pdf_entries[0].link == "comite/agenda-minutas/minuta.pdf"
     assert pdf_entries[0].extension == "pdf"
 
 
