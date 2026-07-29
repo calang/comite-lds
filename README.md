@@ -22,7 +22,7 @@ La motivación para cumplir con ese propósito es que la comunidad de Lomas del 
 
 El sitio publicado (agenda, comisiones y demás documentos del Comité) está disponible en
 **https://calang.github.io/comite-lds/**, desplegado automáticamente vía GitHub Pages en cada
-cambio a `docs/` o `index.html`.
+cambio a `docs/`.
 
 La misión, hoja de ruta y plataforma tecnológica de este proyecto se describen en los documentos
 - [mission.md](specs/mission.md)

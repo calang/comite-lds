@@ -15,17 +15,4 @@ header_pages:
   - __none__
 
 exclude:
-  - src/
-  - specs/
-  - scripts/
-  - tests/
-  - experiments/
-  - prompts/
-  - data/
-  - models/
-  - docs/dev/
-  - Makefile
-  - pyproject.toml
-  - uv.lock
-  - pylintrc
-  - README.md
+  - dev/
