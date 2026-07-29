@@ -29,9 +29,9 @@ Martes 14 de julio 2026
 	- dueño de las cuentas de WA de cada comité
 	- procedimientos de comunicación
 	- procesos de cada comité
-- Propuesta de Comisión de Tecnología
+- Propuesta de [Comisión de Tecnología](../comunidad/comisiones.md#3-comisión-de-tecnología)
 	- propósito
     - posibles herramientas
-- Asuntos pendientes por parte de cada comisión y situación actual
+- Asuntos pendientes por parte de cada comisión y situación actual (ver [tareas pendientes](tareas_pendientes.md))
 	- tema, situación, siguientes pasos planeados, ayuda que se requiera
 - Frecuencia de las reuniones del Comité: Carlos
