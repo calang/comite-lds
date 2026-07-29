@@ -30,4 +30,16 @@ Automatizar el despliegue de la página web en un hospedaje gratuito, asegurando
 
 ---
 
+## Fase 3 — Conversión enlaces internos para Markdown hacia HTML
+
+### Objetivo
+
+Permitir que los documentos internos puedan tener enlaces hacia otros documentos Markdown, y que estos enlaces se conviertan automáticamente a HTML en el sitio web.
+
+### Funcionalidades
+
+- [ ] Implementar un mecanismo que detecte enlaces internos en los documentos Markdown y los convierta a enlaces HTML equivalentes en el sitio web.
+
+---
+
 Fases posteriores (aún no planificadas): [...].
