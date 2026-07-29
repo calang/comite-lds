@@ -38,7 +38,7 @@ Permitir que los documentos internos puedan tener enlaces hacia otros documentos
 
 ### Funcionalidades
 
-- [ ] Implementar un mecanismo que detecte enlaces internos en los documentos Markdown y los convierta a enlaces HTML equivalentes en el sitio web.
+- [x] Implementar un mecanismo que detecte enlaces internos en los documentos Markdown y los convierta a enlaces HTML equivalentes en el sitio web.
 
 ---
 
