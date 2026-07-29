@@ -14,10 +14,10 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    """Escanea docs/ y escribe index.html en la raíz del repositorio."""
-    repo_root = pathlib.Path(os.environ["PROJECT_ROOT"])
-    entries = index_builder.scan_documents(repo_root)
-    output_path = repo_root / "index.html"
+    """Escanea docs/ y escribe docs/index.html."""
+    docs_root = pathlib.Path(os.environ["PROJECT_ROOT"]) / "docs"
+    entries = index_builder.scan_documents(docs_root)
+    output_path = docs_root / "index.html"
     output_path.write_text(index_builder.render_html(entries), encoding="utf-8")
     logger.info("Generado %s con %d documentos", output_path, len(entries))
 
