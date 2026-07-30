@@ -1,4 +1,4 @@
-# Herramientas de Programación
+# Herramientas Tecnológicas
 
 ## Propósito
 
@@ -8,11 +8,12 @@ Son un apoyo a la comunicación entre vecinos y con las autoridades municipales 
 
 Inicialmente, se utilizarán para facilitar el trabajo de los miembros del Comité de Vecinos y de las comisiones, pero eventualmente se espera que cualquier vecino pueda utilizarlas para reportar problemas o necesidades a las autoridades municipales o de seguridad, sin demeritar o reemplazar la comunicación directa entre vecinos y con las autoridades.
 
-
 ## Posibles herramientas
 
-- comunidad y grupos de WA por utilizar
-- registro y consulta de vecinos suscritos a los canales de la comisión - de uso restringido
-- resumen y consulta de actas de reuniones
-- resumen y consulta de métodos y procedimientos dentro de las comisiones
-- resumen y consulta de soluciones dadas a problemas o preguntas de vecinos
+- grupos de WA
+- sitio web para centralizar información, por ejemplo
+  - registro y consulta de vecinos suscritos a los canales de la comisión - de uso restringido
+  - resumen y consulta de actas de reuniones
+  - resumen y consulta de métodos y procedimientos dentro de las comisiones
+  - resumen y consulta de soluciones dadas a problemas o preguntas de vecinos
+- correo electrónico para comunicación formal con autoridades municipales o de seguridad
