@@ -81,8 +81,16 @@ jupl:	ALWAYS
 site:
 	uv run python scripts/generate_index.py
 
-# %.docx - convert a Markdown file into a .docx via pandoc. Usage: make docs/agenda.docx
+# target: %.docx - convert a Markdown file into a .docx via pandoc. Usage: make file.docx
 %.docx: %.md
+	pandoc $< -o $@
+
+# target: %.html - convert a Markdown file into a .html via pandoc. Usage: make file.html
+%.html: %.md
+	pandoc $< -o $@
+
+# target: %.pdf - convert a Markdown file into a .pdf via pandoc. Usage: make file.pdf
+%.pdf: %.md
 	pandoc $< -o $@
 
 # target: docxs - convert a series of Markdown files into a .docx via pandoc. Usage: make docxs
