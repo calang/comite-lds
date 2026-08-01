@@ -7,6 +7,12 @@ title: Comisiones
 
 Este archivo describe el alcance de cada una de las comisiones creadas bajo el Comité de Vecinos de Lomas del Sol
 
+- nombre de la comisión
+- miembros
+- objetivos
+- temática
+- métodos de trabajo con la comunidad
+
 <!-- TOC -->
 * [Comisiones](#comisiones)
   * [1. Comisión Infraestructura](#1-comisión-infraestructura)
@@ -30,6 +36,8 @@ Responsable de identificar, priorizar y dar seguimiento a las necesidades de inf
 
 Dirige: Max
 
+Apoya: Carina
+
 Define métodos y procedimientos para manejar la comunicación
 - entre miembros del comité y las comisiones
 - entre el comité, comisiones y cualquier ente externo como Municipalidad de Curridabat, Fuerza Pública, AyA, CNFL, CONAVI, etc
@@ -50,8 +58,6 @@ Medidas propuestas:
 
 Dirige: Carlos Lang
 
-Le apoyan: Erick Villalta
-
 - Definir herramientas de tecnología digital para facilitar el funcionamiento de los grupos
 - Implementar dichas herramientas, en forma práctica con costos mínimos.
 
@@ -59,18 +65,16 @@ Le apoyan: Erick Villalta
 
 Dirige: Carina Cervantes y Andrea Montero
 
+**pendiente**: incluir lo enviado por Carina.
+
 ## 5. Comisión de Salud y Bienestar
 
 Dirige: Mariano Ureña
 
-Le apoyan: Carina Cervantes y Erick
+Le apoyan: Carina Cervantes
 
-## 7. Comisión de Bienestar Animal
-Dirige: Por definir
 
-Apoyan: Carina Cervantes
-
-## Comisión de Seguridad - Confidencial
+## 6. Comisión de Seguridad - Confidencial
 Los miembros de esta comisión son confidenciales y no se publican en este documento.
 
 La comisión de seguridad tiene como objetivo principal apoyar la seguridad y protección de los vecinos y sus propiedades, así como coordinar con las autoridades locales y fuerzas de seguridad para implementar medidas preventivas y reactivas ante situaciones de riesgo.
