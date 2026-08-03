@@ -87,7 +87,7 @@ site:
 
 # target: %.html - convert a Markdown file into a .html via pandoc. Usage: make file.html
 %.html: %.md
-	pandoc $< -o $@
+	pandoc $< -s -o $@
 
 # target: %.pdf - convert a Markdown file into a .pdf via pandoc. Usage: make file.pdf
 %.pdf: %.md
