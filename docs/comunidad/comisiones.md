@@ -7,11 +7,6 @@ title: Comisiones
 
 Este archivo describe el alcance de cada una de las comisiones creadas bajo el Comité de Vecinos de Lomas del Sol
 
-- nombre de la comisión
-- miembros
-- objetivos
-- temática
-- métodos de trabajo con la comunidad
 
 <!-- TOC -->
 * [Comisiones](#comisiones)
@@ -20,29 +15,28 @@ Este archivo describe el alcance de cada una de las comisiones creadas bajo el C
   * [3. Comisión de Tecnología](#3-comisión-de-tecnología)
   * [4. Comisión de Actividades Sociales (Integración, recreación y Bienestar Social)](#4-comisión-de-actividades-sociales-integración-recreación-y-bienestar-social)
   * [5. Comisión de Salud y Bienestar](#5-comisión-de-salud-y-bienestar)
-  * [7. Comisión de Bienestar Animal](#7-comisión-de-bienestar-animal)
-  * [Comisión de Seguridad - Confidencial](#comisión-de-seguridad---confidencial)
+  * [6. Comisión de Seguridad - Confidencial](#6-comisión-de-seguridad---confidencial)
 <!-- TOC -->
 
 ## 1. Comisión Infraestructura
 
-Dirige: Beatriz Pérez
-
+Dirige: Beatriz Pérez  
 Apoyan: Mariano Ureña, Max
 
-Responsable de identificar, priorizar y dar seguimiento a las necesidades de infraestructura de la comunidad, incluyendo parques, aceras, calles, áreas comunes, iluminación, señalización, mobiliario urbano y demás obras de mejora. Asimismo, coordinará gestiones ante instituciones públicas y privadas, dará seguimiento a proyectos en ejecución y mantendrá informados a los vecinos sobre los avances y necesidades detectadas
+Responsable de identificar, priorizar y dar seguimiento a las necesidades de infraestructura de la comunidad, incluyendo parques, aceras, calles, áreas comunes, iluminación, señalización, mobiliario urbano y demás obras de mejora.
+
+Coordina gestiones ante instituciones públicas y privadas, da seguimiento a proyectos en ejecución y mantiene informados a los vecinos sobre los avances y necesidades detectadas.
 
 ## 2. Comisión de Comunicación
 
-Dirige: Max
-
+Dirige: Max  
 Apoya: Carina
+
+Es la comisión que facilita y agiliza la comunicación entre el comité, la comunidad y las entidades externas. 
 
 Define métodos y procedimientos para manejar la comunicación
 - entre miembros del comité y las comisiones
-- entre el comité, comisiones y cualquier ente externo como Municipalidad de Curridabat, Fuerza Pública, AyA, CNFL, CONAVI, etc
-
-Objetivo: ser la comisión que facilite y agilice la comunicación entre el comité y el público externo. 
+- entre el comité, comisiones y cualquier ente externo como Municipalidad de Curridabat, Fuerza Pública, AyA, CNFL, CONAVI, etc.
 
 Medidas propuestas:
 
@@ -58,24 +52,27 @@ Medidas propuestas:
 
 Dirige: Carlos Lang
 
-- Definir herramientas de tecnología digital para facilitar el funcionamiento de los grupos
-- Implementar dichas herramientas, en forma práctica con costos mínimos.
+Provee medios y herramientas tecnológicas para facilitar la comunicación, coordinación y gestión de las comisiones y del comité en general.
+
+- Determina herramientas de tecnología digital para facilitar el funcionamiento de los grupos
+- Implementa dichas herramientas, en forma práctica con costos mínimos.
+
+Provee y apoya, en particular
+- grupos de WhatsApp para la comunicación entre grupos
+- un sitio web para la comunidad, con información de interés y contacto con el comité
 
 ## 4. Comisión de Actividades Sociales (Integración, recreación y Bienestar Social)
 
-Dirige: Carina Cervantes y Andrea Montero
+Dirigen: Carina Cervantes y Andrea Montero
 
 **pendiente**: incluir lo enviado por Carina.
 
 ## 5. Comisión de Salud y Bienestar
 
-Dirige: Mariano Ureña
-
+Dirige: Mariano Ureña  
 Le apoyan: Carina Cervantes
 
+## 6. Comisión de Seguridad
+Los miembros de esta comisión son confidenciales, por su seguridad personal.
 
-## 6. Comisión de Seguridad - Confidencial
-Los miembros de esta comisión son confidenciales y no se publican en este documento.
-
-La comisión de seguridad tiene como objetivo principal apoyar la seguridad y protección de los vecinos y sus propiedades, así como coordinar con las autoridades locales y fuerzas de seguridad para implementar medidas preventivas y reactivas ante situaciones de riesgo.
-
+La comisión de seguridad tiene como objetivo principal apoyar la seguridad y protección de los vecinos y sus propiedades, así como coordinar con las autoridades locales y fuerzas de seguridad para implementar medidas preventivas y reactivas ante situaciones de riesgo personal o de las propiedades.

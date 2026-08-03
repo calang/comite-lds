@@ -12,9 +12,6 @@ INDEXED_DIRS = ("comite", "comunidad")
 
 DESCRIPTION_PARA_LIST = [
     "Punto de referencia para los vecinos de Lomas del Sol, Curridabat."
-    ,"Listas de contacto para negocios, trámites y procesos comunitarios."
-    ,"Acceso centralizado a estatutos, actas, agendas y demás documentos del "
-     "Comité de Vecinos."
 ]
 
 SITE_DESCRIPTION = "".join(
