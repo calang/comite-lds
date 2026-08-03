@@ -5,7 +5,7 @@ title: Incidentes de Seguridad
 
 # Incidentes de Seguridad
 
-**Cómo proceder ante eventos de seguridad, emergencias
+**Cómo proceder ante incidentes de seguridad, emergencias
 y denuncias policiales**, como
 - riesgos de seguridad
 - riesgos de privacidad

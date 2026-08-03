@@ -6,7 +6,8 @@ title: Inclusión en grupo principal de WhatsApp
 # Inclusión en grupo principal de WhatsApp
 
 Este documento describe el procedimiento para incluir a un vecino en el grupo principal de WhatsApp de la comunidad:
-"**Urb Lomas del Sol**".
+
+> "**Urb Lomas del Sol**".
 
 ## Procedimiento
 
