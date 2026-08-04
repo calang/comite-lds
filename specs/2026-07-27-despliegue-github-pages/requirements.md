@@ -14,7 +14,7 @@ Todo archivo `.md` indexado se sirve renderizado a HTML, no como texto plano.
   sitio con Jekyll nativo y lo despliega, disparado por `push` a `main` que
   toque `docs/**` o `index.html` (más `workflow_dispatch` manual).
 - Todo archivo `.md` bajo `docs/comite/` y `docs/comunidad/` (hoy: `agenda.md`,
-  `tareas_pendientes.md`, `comisiones.md`) se renderiza a HTML vía Jekyll —
+  `tareas_pendientes.md`, `Comisiones.md`) se renderiza a HTML vía Jekyll —
   no solo agenda y comisiones.
 - El índice existente (`index.html`, todos los tipos de archivo: md, pdf, odt,
   docx) se mantiene tal cual — se sigue publicando completo. Los enlaces a

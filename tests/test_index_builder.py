@@ -20,7 +20,7 @@ def fake_repo(tmp_path):
     docs_root = tmp_path / "docs"
     comite = docs_root / "comite" / "agenda-minutas"
     comite.mkdir(parents=True)
-    (docs_root / "comite" / "comisiones.md").write_text("contenido")
+    (docs_root / "comite" / "Comisiones.md").write_text("contenido")
     (comite / "minuta.pdf").write_text("contenido")
     (comite / ".gitkeep").write_text("")
 

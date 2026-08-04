@@ -16,7 +16,7 @@ resuelvan correctamente en el sitio publicado (`.md` → `.html`).
   vivo (hoy no existe ninguno — se verificó por grep que ningún `.md` bajo
   `docs/` referencia a otro).
 - Documentar la convención de escritura de enlaces internos para quien edite
-  `agenda.md`, `comisiones.md`, etc. a mano.
+  `agenda.md`, `Comisiones.md`, etc. a mano.
 
 **Explícitamente fuera de alcance:**
 
@@ -50,11 +50,11 @@ resuelvan correctamente en el sitio publicado (`.md` → `.html`).
   tipo, y el mecanismo de Jekyll ya cubre el caso real (enlaces entre `.md`
   publicados bajo `docs/`).
 - **Convención de escritura**: rutas relativas al archivo origen (p. ej.
-  desde `docs/comite/agenda.md` hacia `../../docs/comunidad/comisiones.md`:
+  desde `docs/comite/agenda.md` hacia `../../docs/comunidad/Comisiones.md`:
   `../comunidad/comisiones.md`), no rutas absolutas ni con prefijo `/docs/`.
   Los anclas siguen el slug que genera `kramdown` a partir del encabezado
   (minúsculas, espacios y acentos a guiones — ya visible en el TOC manual de
-  `comisiones.md`).
+  `Comisiones.md`).
 
 ## Contexto
 

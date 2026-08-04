@@ -64,7 +64,7 @@ enlaces a todos los documentos existentes bajo `docs/comite/` y `docs/comunidad/
 ## Contexto
 
 - El contenido y las etiquetas de la página van en español, consistente con el
-  resto del repositorio (`agenda.md`, `comisiones.md`).
+  resto del repositorio (`agenda.md`, `Comisiones.md`).
 - El texto descriptivo del sitio se deriva de `specs/mission.md` (propósito y a
   quién sirve), resumido brevemente — no se copia el documento completo.
 - No existe hoy ningún front-end en el proyecto (`specs/tech-stack.md` dice
