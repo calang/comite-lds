@@ -47,7 +47,7 @@ _PAGE_TEMPLATE = string.Template("""\
 $description
 <p>
 Enviá sugerencias y consultas a 
-<a href="mailto:lomasdelsolcomite@gmail.com">lomasdelsolcomite@gmail.com</a>
+<a href="mailto:lomasdelsolcomite@gmail.com">lomasdelsolcomite@gmail.com</a>.
 </p>
 <input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
 $sections
