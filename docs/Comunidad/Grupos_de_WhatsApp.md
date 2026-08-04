@@ -7,6 +7,7 @@ title: Grupos de WhatsApp
 
 Grupos de WA que mantiene el _Comité de Vecinos de Lomas del Sol_.
 
+Al utilizarlos, observa **[estas normas](Procedimientos/Normas_de_los_grupos_de_vecinos.md)**.
 
 ## Urb. Lomas del Sol
 
