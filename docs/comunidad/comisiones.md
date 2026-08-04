@@ -20,7 +20,7 @@ Este archivo describe el alcance de cada una de las comisiones creadas bajo el C
 
 ## 1. Comisión de Infraestructura
 
-Dirige: Beatriz Pérez  
+Dirige: Beatriz Pérez (WA: 8357 0373) 
 Apoyan: Mariano Ureña, Max
 
 Responsable de identificar, priorizar y dar seguimiento a las necesidades de infraestructura de la comunidad, incluyendo parques, aceras, calles, áreas comunes, iluminación, señalización, mobiliario urbano y demás obras de mejora.
@@ -29,7 +29,7 @@ Coordina gestiones ante instituciones públicas y privadas, da seguimiento a pro
 
 ## 2. Comisión de Comunicación
 
-Dirige: Max  
+Dirige: Max (WA: 8894 1716) 
 Apoya: Carina
 
 Es la comisión que facilita y agiliza la comunicación entre el comité, la comunidad y las entidades externas. 
@@ -50,7 +50,7 @@ Medidas propuestas:
 
 ## 3. Comisión de Tecnología
 
-Dirige: Carlos Lang
+Dirige: Carlos Lang (WA: 8817 0968)
 
 Provee medios y herramientas tecnológicas para facilitar la comunicación, coordinación y gestión de las comisiones y del comité en general.
 
@@ -63,13 +63,14 @@ Provee y apoya, en particular
 
 ## 4. Comisión de Actividades Sociales (Integración, recreación y Bienestar Social)
 
-Dirigen: Carina Cervantes y Andrea Montero
+Dirigen: Carina Cervantes y Andrea Montero  
+~Comisión de Sociales (WA: 6348 0332)
 
 **pendiente**: incluir lo enviado por Carina.
 
 ## 5. Comisión de Salud y Bienestar
 
-Dirige: Mariano Ureña  
+Dirige: Mariano Ureña (WA: 8308 4692) 
 Le apoyan: Carina Cervantes
 
 ## 6. Comisión de Seguridad
