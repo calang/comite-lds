@@ -49,6 +49,10 @@ Thumbs.db
 # Misc
 *.drawio.bkp
 *.log
+
 # data
-old/
 data/old_archive/
+
+docs/dev/
+docs/draft/
+docs/old/
