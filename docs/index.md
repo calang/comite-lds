@@ -15,6 +15,7 @@ Enviá sugerencias y consultas a
 <p>
 <div class="doc-index">
 <input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
+<hr>
 <h2>comunidad</h2>
 <ul>
   <li data-name="comisiones"><a href="comunidad/Comisiones.html">Comisiones</a></li>
@@ -38,4 +39,3 @@ document.getElementById("filtro").addEventListener("input", function (event) {
   });
 });
 </script>
-<hr>
