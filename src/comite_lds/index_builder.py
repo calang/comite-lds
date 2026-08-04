@@ -59,7 +59,7 @@ $items
 
 _ENTRY_TEMPLATE = string.Template(
     '  <li data-name="$data_name"><a href="$link">$name</a>'
-    '<span class="tipo">$extension</span></li>'
+    '<span class="tipo"> $extension</span></li>'
 )
 
 
