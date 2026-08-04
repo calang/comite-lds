@@ -77,12 +77,23 @@ Ejes de trabajo:
 - Fortalecimiento del emprendimiento local
 - Integración comunitaria con barrios vecinos
 
-[Plan de Trabajo completo](../comite/Plan%20de%20Trabajo%20de%20la%20Comisi%C3%B3n%20de%20Integraci%C3%B3n%2C%20Recreaci%C3%B3n%20y%20Acci%C3%B3n%20Social.pdf).
+[Plan de Trabajo completo](../comite/Plan%20de%20Trabajo%20de%20la%20Comisi%C3%B3n%20de%20Integraci%C3%B3n%2C%20Recreaci%C3%B3n%20y%20Acci%C3%B3n%20Social.pdf)
 
 ## 5. Comisión de Salud y Bienestar
 
 Dirige: Mariano Ureña (WA: 8308 4692)  
 Le apoyan: Carina Cervantes
+
+Promueve un enfoque comunitario de salud preventiva y bienestar integral, actuando como puente articulador entre la comunidad y las instituciones públicas y municipales de salud (EBAIS, CCSS, Ministerio de Salud, Municipalidad de Curridabat).
+
+Busca construir una comunidad más sana, unida y activa, fomentando la participación vecinal en campañas de salud y facilitando el acceso oportuno a información sobre servicios y programas de salud disponibles.
+
+Ejes de trabajo:
+- Encuentros: ferias de salud, talleres de ejercicio al aire libre y jornadas de vacunación en los parques comunitarios, coordinados con el EBAIS y la Municipalidad
+- Comunicación: difusión por los chats vecinales de campañas de salud, fechas de vacunación, charlas y jornadas de prevención
+- Incidentes: seguimiento de denuncias y quejas vecinales ante entidades competentes por situaciones que representen un riesgo para la salud pública de la comunidad
+
+[Estrategia completa](../comite/Estrategia_Comisión_Salud.md).
 
 ## 6. Comisión de Seguridad
 Los miembros de esta comisión son confidenciales, por su seguridad personal.

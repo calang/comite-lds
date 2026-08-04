@@ -20,7 +20,7 @@ Enviá sugerencias y consultas a
 <br>
 <h2>comite</h2>
 <ul>
-  <li data-name="plan de trabajo de la comisión de integración, recreación y acción social"><a href="comite/Plan de Trabajo de la Comisión de Integración, Recreación y Acción Social.pdf">Plan de Trabajo de la Comisión de Integración, Recreación y Acción Social</a></li>
+  <li data-name="plan de trabajo de la comisión de integración, recreación y acción social"><a href="comite/Plan_de_Trabajo_de_la_Comisión_de_Integración,_Recreación_y_Acción_Social.pdf">Plan de Trabajo de la Comisión de Integración, Recreación y Acción Social</a></li>
 </ul>
 <h2>comunidad</h2>
 <ul>
