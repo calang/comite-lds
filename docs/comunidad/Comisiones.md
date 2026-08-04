@@ -44,7 +44,6 @@ Medidas propuestas:
 - Coordinar con otras comisiones la línea de comunicación en temas específicos como infraestructura y seguridad
 - Protocolo de moderación claro y sostenible
 - Optimización de estructura actual de grupos
-- Acuerdo formal de confidencialidad para miembros del comité
 - Compromiso de participación activa de todos los miembros
 
 
@@ -66,7 +65,19 @@ En particular
 Dirigen: Carina Cervantes y Andrea Montero    
 ~Comisión de Sociales (WA: 6348 0332)
 
-**pendiente**: incluir lo enviado por Carina.
+Busca fortalecer la integración, participación y cohesión social de la comunidad mediante actividades recreativas, culturales, educativas y de bienestar. Se enfoca en recuperar y dinamizar parques y espacios públicos, promoviendo su uso positivo por parte de niños, adolescentes, adultos mayores y familias.
+
+La comisión trabaja de la mano con la Comisión de Seguridad, entendiendo la prevención social como una herramienta clave: espacios públicos activos y ocupados por la comunidad reducen las oportunidades para conductas de riesgo.
+
+Ejes de trabajo:
+- Recuperación de espacios públicos (festivales, actividades deportivas, cine al aire libre, ferias comunitarias)
+- Prevención social y seguridad comunitaria, en coordinación con la Comisión de Seguridad
+- Desarrollo integral de la niñez y adolescencia (talleres, salud mental, liderazgo juvenil)
+- Atención e inclusión de personas adultas mayores
+- Fortalecimiento del emprendimiento local
+- Integración comunitaria con barrios vecinos
+
+[Plan de Trabajo completo](../comite/Plan%20de%20Trabajo%20de%20la%20Comisi%C3%B3n%20de%20Integraci%C3%B3n%2C%20Recreaci%C3%B3n%20y%20Acci%C3%B3n%20Social.pdf).
 
 ## 5. Comisión de Salud y Bienestar
 

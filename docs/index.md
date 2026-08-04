@@ -18,6 +18,10 @@ Enviá sugerencias y consultas a
 <br>
 <hr>
 <br>
+<h2>comite</h2>
+<ul>
+  <li data-name="plan de trabajo de la comisión de integración, recreación y acción social"><a href="comite/Plan de Trabajo de la Comisión de Integración, Recreación y Acción Social.pdf">Plan de Trabajo de la Comisión de Integración, Recreación y Acción Social</a></li>
+</ul>
 <h2>comunidad</h2>
 <ul>
   <li data-name="comisiones"><a href="comunidad/Comisiones.html">Comisiones</a></li>
