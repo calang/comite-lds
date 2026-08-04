@@ -20,12 +20,12 @@ Enviá sugerencias y consultas a
 <br>
 <h2>Comité</h2>
 <ul>
+  <li data-name="comisiones"><a href="Comité/Comisiones.html">Comisiones</a></li>
   <li data-name="estrategia_comisión_salud"><a href="Comité/Estrategia_Comisión_Salud.html">Estrategia Comisión Salud</a></li>
-  <li data-name="plan_de_trabajo_de_la_comisión_de_integración,_recreación_y_acción_social"><a href="Comité/Plan_de_Trabajo_de_la_Comisión_de_Integración,_Recreación_y_Acción_Social.pdf">Plan de Trabajo de la Comisión de Integración, Recreación y Acción Social</a></li>
+  <li data-name="plan_de_trabajo_de_la_comisión_de_integración,_recreación_y_acción_social"><a href="Comité/Plan_de_Trabajo_de_la_Comisión_de_Integración,_Recreación_y_Acción_Social.html">Plan de Trabajo de la Comisión de Integración, Recreación y Acción Social</a></li>
 </ul>
 <h2>Comunidad</h2>
 <ul>
-  <li data-name="comisiones"><a href="Comunidad/Comisiones.html">Comisiones</a></li>
   <li data-name="grupos_de_whatsapp"><a href="Comunidad/Grupos_de_WhatsApp.html">Grupos de WhatsApp</a></li>
   <li data-name="próximas_mejoras"><a href="Comunidad/Próximas_mejoras.html">Próximas mejoras</a></li>
 </ul>

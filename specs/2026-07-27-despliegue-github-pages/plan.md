@@ -3,7 +3,7 @@
 ## 1. Front matter en Markdown existente
 
 1.1. Agregar a `../../docs/Comité/agenda.md`, `../../docs/Comité/tareas_pendientes.md` y
-     `../../docs/Comunidad/Comisiones.md` un front matter mínimo al inicio:
+     `../../docs/Comité/Comisiones.md` un front matter mínimo al inicio:
      ```
      ---
      layout: default

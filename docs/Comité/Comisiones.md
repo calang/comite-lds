@@ -77,7 +77,7 @@ Ejes de trabajo:
 - Fortalecimiento del emprendimiento local
 - Integración comunitaria con barrios vecinos
 
-[Plan de Trabajo completo](../Comité/Plan_de_Trabajo_de_la_Comisi%C3%B3n_de_Integraci%C3%B3n%2C_Recreaci%C3%B3n_y_Acci%C3%B3n_Social.pdf)
+[Plan de Trabajo completo](Plan_de_Trabajo_de_la_Comisi%C3%B3n_de_Integraci%C3%B3n%2C_Recreaci%C3%B3n_y_Acci%C3%B3n_Social.md)
 
 ## 5. Comisión de Salud y Bienestar
 
@@ -93,7 +93,7 @@ Ejes de trabajo:
 - Comunicación: difusión por los chats vecinales de campañas de salud, fechas de vacunación, charlas y jornadas de prevención
 - Incidentes: seguimiento de denuncias y quejas vecinales ante entidades competentes por situaciones que representen un riesgo para la salud pública de la comunidad
 
-[Estrategia completa](../Comité/Estrategia_Comisión_Salud.md)
+[Estrategia completa](Estrategia_Comisión_Salud.md)
 
 ## 6. Comisión de Seguridad
 Los miembros de esta comisión son confidenciales, por su seguridad personal.
