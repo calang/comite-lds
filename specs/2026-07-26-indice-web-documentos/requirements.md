@@ -4,11 +4,11 @@
 
 Generar una página web estática (`index.html`) que sirva como punto de entrada al
 contenido del comité: una breve descripción del sitio, y un índice navegable con
-enlaces a todos los documentos existentes bajo `docs/comite/` y `docs/comunidad/`.
+enlaces a todos los documentos existentes bajo `../../docs/Comité/` y `../../docs/Comunidad/`.
 
 **Incluido:**
 
-- Escaneo recursivo de `docs/comite/` y `docs/comunidad/`, indexando todos los
+- Escaneo recursivo de `../../docs/Comité/` y `../../docs/Comunidad/`, indexando todos los
   archivos existentes (`.md`, `.pdf`, `.odt`, `.docx`), agrupados por carpeta de
   origen.
 - Una página HTML autocontenida (CSS y JS embebidos, sin dependencias externas)

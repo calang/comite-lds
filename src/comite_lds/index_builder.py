@@ -1,4 +1,4 @@
-"""Escanea comite/ y comunidad/ (bajo docs/) para generar la página índice."""
+"""Escanea Comité/ y Comunidad/ (bajo docs/) para generar la página índice."""
 
 import dataclasses
 import html
@@ -8,7 +8,7 @@ import string
 
 logger = logging.getLogger(__name__)
 
-INDEXED_DIRS = ("comite", "comunidad")
+INDEXED_DIRS = ("Comité", "Comunidad")
 
 DESCRIPTION_PARA_LIST = [
     "Punto de referencia para los vecinos de Lomas del Sol, Curridabat."

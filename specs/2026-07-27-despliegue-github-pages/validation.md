@@ -53,7 +53,7 @@
   fijando `header_pages` a un path inexistente, y agregando `README.md` a
   `exclude:`.
 - Consecuencia de lo anterior sobre la convención de `.md` futuros: un `.md`
-  nuevo bajo `docs/comite/` o `docs/comunidad/` **sin** front matter igual se
+  nuevo bajo `../../docs/Comité/` o `../../docs/Comunidad/` **sin** front matter igual se
   convierte a `.html` y queda accesible (con título tomado del primer `#`
   encabezado), solo que sin el layout/estilo de `minima` — no es un link
   roto como se documentó inicialmente. El front matter sigue siendo necesario

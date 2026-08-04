@@ -19,7 +19,7 @@
   `index.html` en la raíz del repo sin errores.
 - Abrir `index.html` directamente en un navegador (`file://`) y verificar:
   - La descripción del sitio se lee correctamente y en español.
-  - Todos los documentos actuales de `docs/comite/` y `docs/comunidad/`
+  - Todos los documentos actuales de `../../docs/Comité/` y `../../docs/Comunidad/`
     aparecen listados, agrupados por carpeta.
   - Cada enlace abre el documento correcto (md, pdf, odt, docx).
   - Escribir en el campo de filtro reduce la lista a las entradas cuyo nombre
@@ -32,7 +32,7 @@
 
 ## Definición de terminado
 
-- [ ] `index.html` se genera correctamente desde `docs/comite/` y `docs/comunidad/`.
+- [ ] `index.html` se genera correctamente desde `../../docs/Comité/` y `../../docs/Comunidad/`.
 - [ ] El filtro de búsqueda funciona sobre nombres de documento, sin backend.
 - [ ] Tests nuevos pasan y `make lint` está limpio.
 - [ ] Item correspondiente en `specs/roadmap.md` (Fase 1) marcado como `[x]`.

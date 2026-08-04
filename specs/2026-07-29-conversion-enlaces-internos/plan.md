@@ -2,13 +2,13 @@
 
 ## 1. Enlaces de prueba reales en documentos existentes
 
-1.1. En `docs/comite/agenda.md`, en la fila "Asuntos pendientes en cada
+1.1. En `../../docs/Comité/agenda.md`, en la fila "Asuntos pendientes en cada
      comisión" o en la sección "Contenido previsto", agregar un enlace hacia
-     `docs/comite/tareas_pendientes.md` usando ruta relativa
+     `../../docs/Comité/tareas_pendientes.md` usando ruta relativa
      (`tareas_pendientes.md`, mismo directorio).
-1.2. En `docs/comite/agenda.md`, en la fila/sección "Propuesta de Comisión de
+1.2. En `../../docs/Comité/agenda.md`, en la fila/sección "Propuesta de Comisión de
      Tecnología", agregar un enlace con ancla hacia la sección
-     correspondiente de `../../docs/comunidad/Comisiones.md`
+     correspondiente de `../../docs/Comunidad/Comisiones.md`
      (`../comunidad/comisiones.md#3-comisión-de-tecnología`), confirmando
      antes el slug exacto que genera `kramdown` para ese encabezado (mismo
      patrón ya usado en el TOC manual de `Comisiones.md`).

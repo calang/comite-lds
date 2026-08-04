@@ -2,8 +2,8 @@
 
 ## 1. Front matter en Markdown existente
 
-1.1. Agregar a `docs/comite/agenda.md`, `docs/comite/tareas_pendientes.md` y
-     `../../docs/comunidad/Comisiones.md` un front matter mínimo al inicio:
+1.1. Agregar a `../../docs/Comité/agenda.md`, `../../docs/Comité/tareas_pendientes.md` y
+     `../../docs/Comunidad/Comisiones.md` un front matter mínimo al inicio:
      ```
      ---
      layout: default
@@ -71,7 +71,7 @@
 
 7.1. Documentar en `.claude/CLAUDE.md` (sección "Working with the committee
      documents" o nueva sección) la convención: todo `.md` nuevo bajo
-     `docs/comite/` o `docs/comunidad/` necesita front matter mínimo para
+     `../../docs/Comité/` o `../../docs/Comunidad/` necesita front matter mínimo para
      renderizarse en el sitio publicado.
 7.2. Agregar a `Makefile`/`README.md` la URL del sitio publicado
      (`https://calang.github.io/comite-lds/`) una vez confirmado el primer

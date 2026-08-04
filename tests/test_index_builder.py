@@ -9,7 +9,7 @@ from src.comite_lds import index_builder
 
 @pytest.fixture
 def fake_repo(tmp_path):
-    """Crea un árbol docs/ de prueba con comite/ y comunidad/.
+    """Crea un árbol docs/ de prueba con Comité/ y Comunidad/.
 
     Args:
         tmp_path: Directorio temporal provisto por pytest.
@@ -18,13 +18,13 @@ def fake_repo(tmp_path):
         La ruta a docs/ del árbol de prueba (raíz del sitio Jekyll).
     """
     docs_root = tmp_path / "docs"
-    comite = docs_root / "comite" / "agenda-minutas"
+    comite = docs_root / "Comité" / "agenda-minutas"
     comite.mkdir(parents=True)
-    (docs_root / "comite" / "Comisiones.md").write_text("contenido")
+    (docs_root / "Comité" / "Comisiones.md").write_text("contenido")
     (comite / "minuta.pdf").write_text("contenido")
     (comite / ".gitkeep").write_text("")
 
-    comunidad = docs_root / "comunidad"
+    comunidad = docs_root / "Comunidad"
     comunidad.mkdir(parents=True)
     (comunidad / "emprendimientos & vecinos.md").write_text("contenido")
 
@@ -36,9 +36,9 @@ def test_scan_documents_finds_all_non_hidden_files(fake_repo):
 
     links = {entry.link for entry in entries}
     assert links == {
-        "comite/comisiones.html",
-        "comite/agenda-minutas/minuta.pdf",
-        "comunidad/emprendimientos & vecinos.html",
+        "Comité/comisiones.html",
+        "Comité/agenda-minutas/minuta.pdf",
+        "Comunidad/emprendimientos & vecinos.html",
     }
 
 
@@ -47,7 +47,7 @@ def test_scan_documents_links_markdown_to_rendered_html(fake_repo):
 
     md_entries = [entry for entry in entries if entry.name == "comisiones"]
     assert len(md_entries) == 1
-    assert md_entries[0].link == "comite/comisiones.html"
+    assert md_entries[0].link == "Comité/comisiones.html"
     assert md_entries[0].extension == "html"
 
 
@@ -56,7 +56,7 @@ def test_scan_documents_leaves_non_markdown_extension_untouched(fake_repo):
 
     pdf_entries = [entry for entry in entries if entry.name == "minuta"]
     assert len(pdf_entries) == 1
-    assert pdf_entries[0].link == "comite/agenda-minutas/minuta.pdf"
+    assert pdf_entries[0].link == "Comité/agenda-minutas/minuta.pdf"
     assert pdf_entries[0].extension == "pdf"
 
 

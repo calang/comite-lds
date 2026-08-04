@@ -18,22 +18,22 @@ Enviá sugerencias y consultas a
 <br>
 <hr>
 <br>
-<h2>comite</h2>
+<h2>Comité</h2>
 <ul>
-  <li data-name="estrategia_comisión_salud"><a href="comite/Estrategia_Comisión_Salud.html">Estrategia Comisión Salud</a></li>
-  <li data-name="plan_de_trabajo_de_la_comisión_de_integración,_recreación_y_acción_social"><a href="comite/Plan_de_Trabajo_de_la_Comisión_de_Integración,_Recreación_y_Acción_Social.pdf">Plan de Trabajo de la Comisión de Integración, Recreación y Acción Social</a></li>
+  <li data-name="estrategia_comisión_salud"><a href="Comité/Estrategia_Comisión_Salud.html">Estrategia Comisión Salud</a></li>
+  <li data-name="plan_de_trabajo_de_la_comisión_de_integración,_recreación_y_acción_social"><a href="Comité/Plan_de_Trabajo_de_la_Comisión_de_Integración,_Recreación_y_Acción_Social.pdf">Plan de Trabajo de la Comisión de Integración, Recreación y Acción Social</a></li>
 </ul>
-<h2>comunidad</h2>
+<h2>Comunidad</h2>
 <ul>
-  <li data-name="comisiones"><a href="comunidad/Comisiones.html">Comisiones</a></li>
-  <li data-name="grupos_de_whatsapp"><a href="comunidad/Grupos_de_WhatsApp.html">Grupos de WhatsApp</a></li>
-  <li data-name="próximas_mejoras"><a href="comunidad/Próximas_mejoras.html">Próximas mejoras</a></li>
+  <li data-name="comisiones"><a href="Comunidad/Comisiones.html">Comisiones</a></li>
+  <li data-name="grupos_de_whatsapp"><a href="Comunidad/Grupos_de_WhatsApp.html">Grupos de WhatsApp</a></li>
+  <li data-name="próximas_mejoras"><a href="Comunidad/Próximas_mejoras.html">Próximas mejoras</a></li>
 </ul>
-<h2>comunidad/Procedimientos</h2>
+<h2>Comunidad/Procedimientos</h2>
 <ul>
-  <li data-name="inclusion_en_grupo_principal_wa"><a href="comunidad/Procedimientos/Inclusion_en_grupo_principal_WA.html">Inclusion en grupo principal WA</a></li>
-  <li data-name="normas_de_los_grupos_de_vecinos"><a href="comunidad/Procedimientos/Normas_de_los_grupos_de_vecinos.html">Normas de los grupos de vecinos</a></li>
-  <li data-name="reportar_incidentes_de_seguridad"><a href="comunidad/Procedimientos/Reportar_incidentes_de_seguridad.html">Reportar incidentes de seguridad</a></li>
+  <li data-name="inclusion_en_grupo_principal_wa"><a href="Comunidad/Procedimientos/Inclusion_en_grupo_principal_WA.html">Inclusion en grupo principal WA</a></li>
+  <li data-name="normas_de_los_grupos_de_vecinos"><a href="Comunidad/Procedimientos/Normas_de_los_grupos_de_vecinos.html">Normas de los grupos de vecinos</a></li>
+  <li data-name="reportar_incidentes_de_seguridad"><a href="Comunidad/Procedimientos/Reportar_incidentes_de_seguridad.html">Reportar incidentes de seguridad</a></li>
 </ul>
 </div>
 </p>

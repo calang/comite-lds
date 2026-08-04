@@ -4,7 +4,7 @@
 
 1.1. Crear `src/comite_lds/__init__.py` (nuevo paquete).
 1.2. En `src/comite_lds/index_builder.py`, escribir una función que recorra
-     recursivamente `docs/comite/` y `docs/comunidad/` y devuelva una lista de
+     recursivamente `../../docs/Comité/` y `../../docs/Comunidad/` y devuelva una lista de
      entradas (nombre, carpeta origen relativa, extensión, ruta relativa desde
      la raíz del repo).
 1.3. Ordenar las entradas: primero por carpeta origen, luego alfabéticamente

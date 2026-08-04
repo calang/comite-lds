@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera index.md a partir de docs/comite y docs/comunidad."""
+"""Genera index.md a partir de docs/Comité y docs/Comunidad."""
 
 import logging
 import os

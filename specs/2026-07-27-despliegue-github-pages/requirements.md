@@ -13,7 +13,7 @@ Todo archivo `.md` indexado se sirve renderizado a HTML, no como texto plano.
 - Workflow de GitHub Actions (`.github/workflows/pages.yml`) que construye el
   sitio con Jekyll nativo y lo despliega, disparado por `push` a `main` que
   toque `docs/**` o `index.html` (más `workflow_dispatch` manual).
-- Todo archivo `.md` bajo `docs/comite/` y `docs/comunidad/` (hoy: `agenda.md`,
+- Todo archivo `.md` bajo `../../docs/Comité/` y `../../docs/Comunidad/` (hoy: `agenda.md`,
   `tareas_pendientes.md`, `Comisiones.md`) se renderiza a HTML vía Jekyll —
   no solo agenda y comisiones.
 - El índice existente (`index.html`, todos los tipos de archivo: md, pdf, odt,
@@ -77,6 +77,6 @@ Todo archivo `.md` indexado se sirve renderizado a HTML, no como texto plano.
   contenido vía Pages no expone nada nuevo — el `exclude:` en `_config.yml`
   es por prolijidad del sitio, no por confidencialidad.
 - Convención a documentar (en `CLAUDE.md` o en el propio `docs/`): todo `.md`
-  nuevo bajo `docs/comite/` o `docs/comunidad/` debe incluir front matter
+  nuevo bajo `../../docs/Comité/` o `../../docs/Comunidad/` debe incluir front matter
   mínimo para que se renderice en el sitio; si se omite, el archivo se sigue
   indexando pero como texto plano sin convertir.

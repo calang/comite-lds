@@ -9,7 +9,7 @@
 
 ## Manual
 
-- [x] Los dos enlaces agregados en `docs/comite/agenda.md` usan ruta
+- [x] Los dos enlaces agregados en `../../docs/Comité/agenda.md` usan ruta
       relativa (no absoluta, no `/docs/...`).
 - [x] Tras el despliegue en `main`, abrir
       `https://calang.github.io/comite-lds/comite/agenda.html` y confirmar:

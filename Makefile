@@ -76,7 +76,7 @@ lint:	ALWAYS
 jupl:	ALWAYS
 	uv run jupyter lab &
 
-# target: site - regenerate index.md from docs/comite and docs/comunidad
+# target: site - regenerate index.md from docs/Comité and docs/Comunidad
 # published at https://calang.github.io/comite-lds/ via GitHub Pages
 site:
 	uv run python scripts/generate_index.py
@@ -94,7 +94,7 @@ site:
 	pandoc $< -o $@
 
 # target: docxs - convert a series of Markdown files into a .docx via pandoc. Usage: make docxs
-docxs:	docs/comite/agenda.docx
+docxs:	docs/Comité
 
 # target push - sample docker image push, asking for passwords
 # push: TEMPUSR := $(shell mktemp)
