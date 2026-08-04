@@ -1,3 +1,8 @@
+---
+layout: default
+title: Próximas Mejoras
+---
+
 # Próximas Mejoras
 
 Servicios adicionales por crearse en este sitio
