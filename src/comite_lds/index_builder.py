@@ -50,6 +50,7 @@ document.getElementById("filtro").addEventListener("input", function (event) {
   });
 });
 </script>
+<hr>
 """)
 
 _SECTION_TEMPLATE = string.Template("""\

@@ -38,3 +38,4 @@ document.getElementById("filtro").addEventListener("input", function (event) {
   });
 });
 </script>
+<hr>
