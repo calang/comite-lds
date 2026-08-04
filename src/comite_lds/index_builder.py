@@ -34,10 +34,12 @@ Enviá sugerencias y consultas a
 <a href="mailto:lomasdelsolcomite@gmail.com">lomasdelsolcomite@gmail.com</a>.
 </p>
 
+<p>
 <div class="doc-index">
 <input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
 $sections
 </div>
+</p>
 
 <script>
 document.getElementById("filtro").addEventListener("input", function (event) {
@@ -59,7 +61,7 @@ $items
 
 _ENTRY_TEMPLATE = string.Template(
     '  <li data-name="$data_name"><a href="$link">$name</a>'
-    '<span class="tipo"> $extension</span></li>'
+    # '<span class="tipo"> $extension</span></li>'
 )
 
 
