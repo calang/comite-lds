@@ -37,6 +37,7 @@ Enviá sugerencias y consultas a
 <p>
 <div class="doc-index">
 <input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
+<hr>
 $sections
 </div>
 </p>
@@ -50,7 +51,6 @@ document.getElementById("filtro").addEventListener("input", function (event) {
   });
 });
 </script>
-<hr>
 """)
 
 _SECTION_TEMPLATE = string.Template("""\
