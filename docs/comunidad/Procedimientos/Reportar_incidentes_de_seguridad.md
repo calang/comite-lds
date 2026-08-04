@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Incidentes de Seguridad
+title: Reportar Incidentes de Seguridad
 ---
 
-# Incidentes de Seguridad
+# Reportar Incidentes de Seguridad
 
 **Cómo proceder ante incidentes de seguridad, emergencias
 y denuncias policiales**, como
