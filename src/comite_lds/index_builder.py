@@ -12,8 +12,6 @@ INDEXED_DIRS = ("comite", "comunidad")
 
 DESCRIPTION_PARA_LIST = [
     "Punto de referencia para los vecinos de Lomas del Sol, Curridabat."
-    , "Enviá sugerencias y consultas a "
-      '<a href="mailto:lomasdelsolcomite@gmail.com">lomasdelsolcomite@gmail.com</a>'
 ]
 
 SITE_DESCRIPTION = "".join(
@@ -47,6 +45,10 @@ _PAGE_TEMPLATE = string.Template("""\
 <body>
 <h1>Comité de Vecinos de Lomas del Sol</h1>
 $description
+<p>
+Enviá sugerencias y consultas a 
+<a href="mailto:lomasdelsolcomite@gmail.com">lomasdelsolcomite@gmail.com</a>
+</p>
 <input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
 $sections
 <script>
