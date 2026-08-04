@@ -77,7 +77,7 @@ Ejes de trabajo:
 - Fortalecimiento del emprendimiento local
 - Integración comunitaria con barrios vecinos
 
-[Plan de Trabajo completo](../comite/Plan%20de%20Trabajo%20de%20la%20Comisi%C3%B3n%20de%20Integraci%C3%B3n%2C%20Recreaci%C3%B3n%20y%20Acci%C3%B3n%20Social.pdf)
+[Plan de Trabajo completo](../comite/Plan_de_Trabajo_de_la_Comisi%C3%B3n_de_Integraci%C3%B3n%2C_Recreaci%C3%B3n_y_Acci%C3%B3n_Social.pdf)
 
 ## 5. Comisión de Salud y Bienestar
 
