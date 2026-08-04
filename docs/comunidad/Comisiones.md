@@ -21,7 +21,7 @@ Este archivo describe el alcance de cada una de las comisiones creadas bajo el C
 ## 1. Comisión de Infraestructura
 
 Dirige: Beatriz Pérez (WA: 8357 0373)  
-Apoyan: Mariano Ureña, Max
+Apoyan: Mariano Ureña, Max Vargas
 
 Responsable de identificar, priorizar y dar seguimiento a las necesidades de infraestructura de la comunidad, incluyendo parques, aceras, calles, áreas comunes, iluminación, señalización, mobiliario urbano y demás obras de mejora.
 
@@ -29,7 +29,7 @@ Coordina gestiones ante instituciones públicas y privadas, da seguimiento a pro
 
 ## 2. Comisión de Comunicación
 
-Dirige: Max (WA: 8894 1716)  
+Dirige: Max Vargas (WA: 8894 1716)  
 Apoya: Carina
 
 Es la comisión que facilita y agiliza la comunicación entre el comité, la comunidad y las entidades externas. 

@@ -15,7 +15,9 @@ Enviá sugerencias y consultas a
 <p>
 <div class="doc-index">
 <input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
+<br>
 <hr>
+<br>
 <h2>comunidad</h2>
 <ul>
   <li data-name="comisiones"><a href="comunidad/Comisiones.html">Comisiones</a></li>

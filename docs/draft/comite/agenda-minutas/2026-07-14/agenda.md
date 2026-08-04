@@ -11,7 +11,7 @@ Martes 14 de julio 2026
 | Revisión de la agenda                      | Carlos                     | 2 min             |	
 | Comprobación de Quorum y Asistencia        |                            |                   |
 | Revisión del acta anterior                 | Beatriz                    | 10 min            |
-| Normas de Comunicación                     | Max                        | 20 min            |
+| Normas de Comunicación                     | Max Vargas                 | 20 min            |
 | Cambios a cuenta de correo y número Comité | Carina                     | 10 min            |
 | Organización                               | Carlos                     | 20 min            |
 | Propuesta de Comisión de Tecnología        | Carlos                     | 20 min            |

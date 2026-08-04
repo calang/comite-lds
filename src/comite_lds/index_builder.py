@@ -37,7 +37,9 @@ Enviá sugerencias y consultas a
 <p>
 <div class="doc-index">
 <input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
+<br>
 <hr>
+<br>
 $sections
 </div>
 </p>
