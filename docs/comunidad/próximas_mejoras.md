@@ -1,4 +1,3 @@
-# Próximas mejoras
 Servicios adicionales por crearse en este sitio
 
 ## Nuevas Funciones
