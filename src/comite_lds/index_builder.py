@@ -12,6 +12,8 @@ INDEXED_DIRS = ("comite", "comunidad")
 
 DESCRIPTION_PARA_LIST = [
     "Punto de referencia para los vecinos de Lomas del Sol, Curridabat."
+    , "Enviá sugerencias y consultas a "
+      '<a href="mailto:lomasdelsolcomite@gmail.com">lomasdelsolcomite@gmail.com</a>'
 ]
 
 SITE_DESCRIPTION = "".join(

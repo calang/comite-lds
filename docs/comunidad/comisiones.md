@@ -57,9 +57,9 @@ Provee medios y herramientas tecnológicas para facilitar la comunicación, coor
 - Determina herramientas de tecnología digital para facilitar el funcionamiento de los grupos
 - Implementa dichas herramientas, en forma práctica con costos mínimos.
 
-Provee y apoya, en particular
+En particular
 - grupos de WhatsApp para la comunicación entre grupos
-- un sitio web para la comunidad, con información de interés y contacto con el comité
+- este sitio web, con información de interés y contacto con el comité.
 
 ## 4. Comisión de Actividades Sociales (Integración, recreación y Bienestar Social)
 
