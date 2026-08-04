@@ -18,3 +18,9 @@ Servicios adicionales por crearse en este sitio
 - [ ] Modernización y rediseño de las páginas
 - [ ] Mover sitio a una plataforma que permita mejor gestión de contenidos y colaboración
 - [ ] Crear y usar dominio propio para el sitio web de la comunidad
+
+## ¿Tenés sugerencias?
+
+Envialas a
+
+>[lomasdelsolcomite@gmail.com](mailto:lomasdelsolcomite@gmail.com)
