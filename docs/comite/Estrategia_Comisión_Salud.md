@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Estrategia Comisión Salud
+title: Comisión de Salud y Bienestar
 ---
 
-# COMISIÓN DE SALUD Y BIENESTAR
+# Comisión de Salud y Bienestar
 
 El objetivo principal de la Comisión de Salud y Bienestar es promover un
 enfoque comunitario que impulse la salud preventiva y el bienestar

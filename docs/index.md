@@ -32,6 +32,7 @@ Enviá sugerencias y consultas a
 <h2>comunidad/Procedimientos</h2>
 <ul>
   <li data-name="inclusion_en_grupo_principal_wa"><a href="comunidad/Procedimientos/Inclusion_en_grupo_principal_WA.html">Inclusion en grupo principal WA</a></li>
+  <li data-name="normas_de_los_grupos_de_vecinos"><a href="comunidad/Procedimientos/Normas_de_los_grupos_de_vecinos.html">Normas de los grupos de vecinos</a></li>
   <li data-name="reportar_incidentes_de_seguridad"><a href="comunidad/Procedimientos/Reportar_incidentes_de_seguridad.html">Reportar incidentes de seguridad</a></li>
 </ul>
 </div>
