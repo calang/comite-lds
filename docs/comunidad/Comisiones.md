@@ -93,7 +93,7 @@ Ejes de trabajo:
 - Comunicación: difusión por los chats vecinales de campañas de salud, fechas de vacunación, charlas y jornadas de prevención
 - Incidentes: seguimiento de denuncias y quejas vecinales ante entidades competentes por situaciones que representen un riesgo para la salud pública de la comunidad
 
-[Estrategia completa](../comite/Estrategia_Comisión_Salud.md).
+[Estrategia completa](../comite/Estrategia_Comisión_Salud.md)
 
 ## 6. Comisión de Seguridad
 Los miembros de esta comisión son confidenciales, por su seguridad personal.
