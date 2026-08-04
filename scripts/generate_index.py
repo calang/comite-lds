@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera index.html a partir de docs/comite y docs/comunidad."""
+"""Genera index.md a partir de docs/comite y docs/comunidad."""
 
 import logging
 import os
@@ -14,10 +14,10 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    """Escanea docs/ y escribe docs/index.html."""
+    """Escanea docs/ y escribe docs/index.md."""
     docs_root = pathlib.Path(os.environ["PROJECT_ROOT"]) / "docs"
     entries = index_builder.scan_documents(docs_root)
-    output_path = docs_root / "index.html"
+    output_path = docs_root / "index.md"
     output_path.write_text(index_builder.render_html(entries), encoding="utf-8")
     logger.info("Generado %s con %d documentos", output_path, len(entries))
 

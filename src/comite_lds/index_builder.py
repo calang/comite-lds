@@ -1,4 +1,4 @@
-"""Escanea comite/ y comunidad/ (bajo docs/) para generar un índice HTML."""
+"""Escanea comite/ y comunidad/ (bajo docs/) para generar la página índice."""
 
 import dataclasses
 import html
@@ -21,36 +21,24 @@ SITE_DESCRIPTION = "".join(
 
 
 _PAGE_TEMPLATE = string.Template("""\
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<title>Comité de Vecinos de Lomas del Sol</title>
-<style>
-  body {
-    font-family: sans-serif;
-    max-width: 60rem;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    line-height: 1.5;
-  }
-  h1 { margin-bottom: 0.25rem; }
-  #filtro { width: 100%; padding: 0.5rem; margin: 1rem 0; font-size: 1rem; }
-  h2 { margin-top: 2rem; border-bottom: 1px solid #ccc; }
-  ul { list-style: none; padding: 0; }
-  li { padding: 0.25rem 0; }
-  .tipo { color: #666; font-size: 0.85em; margin-left: 0.5em; }
-</style>
-</head>
-<body>
-<h1>Comité de Vecinos de Lomas del Sol</h1>
+---
+layout: default
+title: Comité de Vecinos de Lomas del Sol
+---
+
+# Comité de Vecinos de Lomas del Sol
+
 $description
 <p>
-Enviá sugerencias y consultas a 
+Enviá sugerencias y consultas a
 <a href="mailto:lomasdelsolcomite@gmail.com">lomasdelsolcomite@gmail.com</a>.
 </p>
+
+<div class="doc-index">
 <input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
 $sections
+</div>
+
 <script>
 document.getElementById("filtro").addEventListener("input", function (event) {
   var query = event.target.value.toLowerCase();
@@ -60,8 +48,6 @@ document.getElementById("filtro").addEventListener("input", function (event) {
   });
 });
 </script>
-</body>
-</html>
 """)
 
 _SECTION_TEMPLATE = string.Template("""\
@@ -139,14 +125,18 @@ def render_html(
     entries: list[DocumentEntry],
     description: str = SITE_DESCRIPTION
 ) -> str:
-    """Genera el HTML completo del índice a partir de las entradas escaneadas.
+    """Genera la página índice (Markdown + front matter de Jekyll).
+
+    Usa `layout: default` para que la portada tome el estilo minima del
+    resto del sitio; la lista de documentos se emite como HTML embebido
+    (kramdown la pasa sin tocar) para conservar el filtro por nombre.
 
     Args:
         entries: Lista de DocumentEntry a listar en el índice.
         description: Texto descriptivo del sitio.
 
     Returns:
-        El documento HTML completo, como string.
+        El contenido completo de index.md, como string.
     """
     grouped = {}
     for entry in entries:

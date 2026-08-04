@@ -1,33 +1,18 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<title>Comité de Vecinos de Lomas del Sol</title>
-<style>
-  body {
-    font-family: sans-serif;
-    max-width: 60rem;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    line-height: 1.5;
-  }
-  h1 { margin-bottom: 0.25rem; }
-  #filtro { width: 100%; padding: 0.5rem; margin: 1rem 0; font-size: 1rem; }
-  h2 { margin-top: 2rem; border-bottom: 1px solid #ccc; }
-  ul { list-style: none; padding: 0; }
-  li { padding: 0.25rem 0; }
-  .tipo { color: #666; font-size: 0.85em; margin-left: 0.5em; }
-</style>
-</head>
-<body>
-<h1>Comité de Vecinos de Lomas del Sol</h1>
+---
+layout: default
+title: Comité de Vecinos de Lomas del Sol
+---
+
+# Comité de Vecinos de Lomas del Sol
+
 <p>Punto de referencia para los vecinos de Lomas del Sol, Curridabat.</p>
 
-
 <p>
-Enviá sugerencias y consultas a 
-<a href="mailto:lomasdelsolcomite@gmail.com">lomasdelsolcomite@gmail.com</a>
+Enviá sugerencias y consultas a
+<a href="mailto:lomasdelsolcomite@gmail.com">lomasdelsolcomite@gmail.com</a>.
 </p>
+
+<div class="doc-index">
 <input id="filtro" type="text" placeholder="Filtrar documentos por nombre...">
 <h2>comunidad</h2>
 <ul>
@@ -40,6 +25,8 @@ Enviá sugerencias y consultas a
   <li data-name="inclusion_en_grupo_principal_wa"><a href="comunidad/Procedimientos/Inclusion_en_grupo_principal_WA.html">Inclusion_en_grupo_principal_WA</a><span class="tipo">html</span></li>
   <li data-name="reportar_incidentes_de_seguridad"><a href="comunidad/Procedimientos/Reportar_incidentes_de_seguridad.html">Reportar_incidentes_de_seguridad</a><span class="tipo">html</span></li>
 </ul>
+</div>
+
 <script>
 document.getElementById("filtro").addEventListener("input", function (event) {
   var query = event.target.value.toLowerCase();
@@ -49,5 +36,3 @@ document.getElementById("filtro").addEventListener("input", function (event) {
   });
 });
 </script>
-</body>
-</html>

@@ -76,7 +76,7 @@ lint:	ALWAYS
 jupl:	ALWAYS
 	uv run jupyter lab &
 
-# target: site - regenerate index.html from docs/comite and docs/comunidad
+# target: site - regenerate index.md from docs/comite and docs/comunidad
 # published at https://calang.github.io/comite-lds/ via GitHub Pages
 site:
 	uv run python scripts/generate_index.py
