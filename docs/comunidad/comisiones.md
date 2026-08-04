@@ -10,15 +10,15 @@ Este archivo describe el alcance de cada una de las comisiones creadas bajo el C
 
 <!-- TOC -->
 * [Comisiones](#comisiones)
-  * [1. Comisión Infraestructura](#1-comisión-infraestructura)
+  * [1. Comisión de Infraestructura](#1-comisión-de-infraestructura)
   * [2. Comisión de Comunicación](#2-comisión-de-comunicación)
   * [3. Comisión de Tecnología](#3-comisión-de-tecnología)
   * [4. Comisión de Actividades Sociales (Integración, recreación y Bienestar Social)](#4-comisión-de-actividades-sociales-integración-recreación-y-bienestar-social)
   * [5. Comisión de Salud y Bienestar](#5-comisión-de-salud-y-bienestar)
-  * [6. Comisión de Seguridad - Confidencial](#6-comisión-de-seguridad---confidencial)
+  * [6. Comisión de Seguridad](#6-comisión-de-seguridad)
 <!-- TOC -->
 
-## 1. Comisión Infraestructura
+## 1. Comisión de Infraestructura
 
 Dirige: Beatriz Pérez  
 Apoyan: Mariano Ureña, Max
