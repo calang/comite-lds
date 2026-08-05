@@ -30,7 +30,7 @@ Coordina gestiones ante instituciones públicas y privadas, da seguimiento a pro
 ## 2. Comisión de Comunicación
 
 Dirige: Max Vargas (WA: 8894 1716)  
-Apoya: Carina
+Apoya: Carina Cervantes
 
 Es la comisión que facilita y agiliza la comunicación entre el comité, la comunidad y las entidades externas. 
 
