@@ -42,4 +42,17 @@ Permitir que los documentos internos puedan tener enlaces hacia otros documentos
 
 ---
 
+## Fase 4 — Agregar validación de enlaces internos
+
+### Objetivo
+
+Comprobar calidad de los documentos de base usados para generar el sitio web.
+
+### Funcionalidades
+
+- [x] Implementar un mecanismo que detecte enlaces internos rotos en los documentos Markdown y notifique al usuario sobre ellos.
+- [x] Incluir el uso de este mecanismo como una comprobación inicial entre los comandos utilizados en Makefile para el target `site`.  De fallar, informa al usuario de los fallos y detiene la generación del sitio web.
+
+---
+
 Fases posteriores (aún no planificadas): [...].

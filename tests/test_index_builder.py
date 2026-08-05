@@ -36,7 +36,7 @@ def test_scan_documents_finds_all_non_hidden_files(fake_repo):
 
     links = {entry.link for entry in entries}
     assert links == {
-        "Comité/comisiones.html",
+        "Comité/Comisiones.html",
         "Comité/agenda-minutas/minuta.pdf",
         "Comunidad/emprendimientos & vecinos.html",
     }
@@ -45,9 +45,9 @@ def test_scan_documents_finds_all_non_hidden_files(fake_repo):
 def test_scan_documents_links_markdown_to_rendered_html(fake_repo):
     entries = index_builder.scan_documents(fake_repo)
 
-    md_entries = [entry for entry in entries if entry.name == "comisiones"]
+    md_entries = [entry for entry in entries if entry.name == "Comisiones"]
     assert len(md_entries) == 1
-    assert md_entries[0].link == "Comité/comisiones.html"
+    assert md_entries[0].link == "Comité/Comisiones.html"
     assert md_entries[0].extension == "html"
 
 

@@ -76,9 +76,13 @@ lint:	ALWAYS
 jupl:	ALWAYS
 	uv run jupyter lab &
 
+# target: check-links - detect broken internal links between .md files
+check-links:	ALWAYS
+	uv run python scripts/check_links.py
+
 # target: site - regenerate index.md from docs/Comité and docs/Comunidad
 # published at https://calang.github.io/comite-lds/ via GitHub Pages
-site:
+site:	check-links
 	uv run python scripts/generate_index.py
 
 # target: %.docx - convert a Markdown file into a .docx via pandoc. Usage: make file.docx
@@ -107,7 +111,7 @@ docxs:	docs/Comité
 
 # ignore files with any of these names
 # so that the rules with those as target are always executed
-.PHONY: help show-vars init update-env rm-env lint jupl site ALWAYS
+.PHONY: help show-vars init update-env rm-env lint jupl check-links site ALWAYS
 
 # always do/refresh ALWAYS target
 ALWAYS:

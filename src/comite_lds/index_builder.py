@@ -173,6 +173,6 @@ def _render_entry(entry):
     return _ENTRY_TEMPLATE.substitute(
         data_name=html.escape(entry.name.lower()),
         link=html.escape(entry.link),
-        name=html.escape(entry.name.replace('_', ' ')),
+        name=html.escape(entry.name.replace("_", " ")),
         extension=html.escape(entry.extension),
     )
