@@ -10,6 +10,7 @@ El proyecto es, hoy, un conjunto de documentos Markdown versionados en Git (acta
 | Front-end          | Markdown + Jekyll (theme `minima`) | `docs/` es la raíz del sitio Jekyll (`source: ./docs`); los `.md` de `../docs/Comité/` y `../docs/Comunidad/` llevan front matter y Jekyll los renderiza a HTML al desplegar; `header_pages: [__none__]` desactiva la nav automática de minima |
 | Document Storage   | Markdown + PDFs en Git        | `agenda.md`, `Comisiones.md` y PDFs de documentos municipales formales son la fuente de verdad              |
 | Document Retrieval | Índice generado + filtro JS del lado cliente | `docs/index.md` se genera con `make site` (`scripts/generate_index.py` → `src/comite_lds/index_builder.py`), que escanea `../docs/Comité/` y `../docs/Comunidad/` y arma una lista filtrable por nombre de archivo (JS embebido); no busca contenido |
+| Content Quality    | Validador de enlaces internos propio | `make check-links` (`scripts/check_links.py` → `src/comite_lds/link_checker.py`) escanea todos los `.md` versionados en el repo, verifica que los destinos de enlaces relativos (archivo y, si es `.md`, ancla kramdown) existan, y es prerrequisito de `make site` — si falla, detiene la generación del sitio |
 | Legacy doc conversion | pandoc + LibreOffice (`soffice`) + poppler (`pdftotext`/`pdftoppm`) + Tesseract OCR (`spa`) | `scripts/convert_old_archive.py` convierte `docx`/`pptx`/`pdf`/`xls` de `docs/old/` a texto/Markdown en `data/old_archive/converted/` (excluido de git), con respaldo de OCR para PDFs escaneados; ver `docs/dev/analisis-docs-old.md` |
 | Data Base          | Ninguna                       | Bajo volumen (actas, contactos, documentos); no hay necesidad actual de una base de datos                  |
 | Server framework   | Ninguno                       | No existe un servicio en ejecución; no hay backend que exponer                                              |
@@ -24,14 +25,14 @@ No hay un modelo de datos estructurado: el contenido vive en archivos Markdown e
 
 ## Testing
 
-- **pytest** (`uv run pytest`) para el código Python — `tests/test_index_builder.py` cubre `src/comite_lds/index_builder.py`
+- **pytest** (`uv run pytest`) para el código Python — `tests/test_index_builder.py` cubre `src/comite_lds/index_builder.py`, `tests/test_link_checker.py` cubre `src/comite_lds/link_checker.py`
 - **pylint** (`make lint`, con `pylintrc` que implementa la Google Python Style Guide y el plugin `pylint.extensions.docparams`) para calidad de código Python
 
 
 ## Tooling
 
 - **uv** para gestión de dependencias y entorno virtual (`make init`, `make update-env`, `make rm-env`)
-- **Makefile** como interfaz de comandos comunes (`init`, `lint`, `jupl`, `site`, `docxs`, `show-vars`, etc.)
+- **Makefile** como interfaz de comandos comunes (`init`, `lint`, `jupl`, `check-links`, `site`, `docxs`, `show-vars`, etc.)
 - **Jupyter Lab** (`make jupl`) para exploración/experimentación
 - **pandoc** para generar `agenda.docx` a partir de `agenda.md` (`make docxs`) y para convertir `docx` a texto en `convert_old_archive.py`
 - **LibreOffice (`soffice`), poppler-utils (`pdftotext`/`pdftoppm`) y Tesseract OCR** como dependencias del sistema (no gestionadas por `uv`) usadas solo por `scripts/convert_old_archive.py`
