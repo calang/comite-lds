@@ -38,6 +38,7 @@ Enviá sugerencias y consultas a
 </div>
 </p>
 
+
 <script>
 document.getElementById("filtro").addEventListener("input", function (event) {
   var query = event.target.value.toLowerCase();
