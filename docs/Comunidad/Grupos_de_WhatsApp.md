@@ -15,6 +15,9 @@ Al utilizarlos, observa **[estas normas](Procedimientos/Normas_de_los_grupos_de_
 
 Grupo de comunicación general entre vecinos sobre temas de su interés.
 
+Compartimos solo temas de la urbanización.  Evitamos cadenas, spam o datos sin verificar.
+
+
 ### Administradores
 - Carlos Lang (WA: 8817 0968)
 - Andrea Montero (WA: 7202 1426)
@@ -23,16 +26,17 @@ Grupo de comunicación general entre vecinos sobre temas de su interés.
 Para solicitar acceso, ver [Inclusion_en_grupo_principal_WA](Procedimientos/Inclusion_en_grupo_principal_WA.md)
 
 
-## Emprendedores Lomas del Sol
+## Ventas Lomas del Sol
 
-### Propósito
+Anteriormente llamado "Emprendedores Lomas del Sol".
 
-Grupo para la promoción de productos y servicios provistos por nuestra comunidad de vecinos.
-Punto de encuentro para proveedores y consumidores.
+Es un grupo de comunicación entre vecinos para la oferta de productos y servicios.
+
+- se permite el anuncio de productos o servicios provistos por vecinos de la comunidad
+- se solicita no repetir anuncios en días consecutivos a menos que haya cambiado algo importante en la oferta, para dar oportunidad de anunciarse a otros vecinos.
 
 ### Administradores
 
-- Carina
+- Carina Cervantes
 - Andrea Montero
-- ~Comisión de Sociales (WA: 6348 0332)
-
+- ~Comisión de Sociales, administrado por ambas (WA: 6348 0332)

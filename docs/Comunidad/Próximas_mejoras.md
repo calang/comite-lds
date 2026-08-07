@@ -17,7 +17,7 @@ Servicios adicionales por crearse en este sitio
 
 - [ ] Modernización y rediseño de las páginas
 - [ ] Mover sitio a una plataforma que permita mejor gestión de contenidos y colaboración
-- [ ] Crear y usar un nombre de dominio para este sitio (ej: www.lomasdelsol.org)
+- [X] Crear y usar un nombre de dominio para este sitio (ej: www.lomasdelsol.org)
 
 ## ¿Tenés sugerencias?
 
