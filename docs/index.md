@@ -27,6 +27,7 @@ Enviá sugerencias y consultas a
 <h2>Comunidad</h2>
 <ul>
   <li data-name="grupos_de_whatsapp"><a href="Comunidad/Grupos_de_WhatsApp.html">Grupos de WhatsApp</a></li>
+  <li data-name="mapa_de_lomas_del_sol"><a href="Comunidad/Mapa_de_Lomas_del_Sol.pdf">Mapa de Lomas del Sol</a></li>
   <li data-name="próximas_mejoras"><a href="Comunidad/Próximas_mejoras.html">Próximas mejoras</a></li>
 </ul>
 <h2>Comunidad/Procedimientos</h2>
