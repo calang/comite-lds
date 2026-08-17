@@ -21,7 +21,7 @@ y denuncias policiales**, como
      - **descripción** del incidente y
      - cualquier información relevante 
    - Pide el **número de incidente**
-2. Comparte en el grupo de WhatsApp **Urb Lomas del Sol**:
+2. Comparte, enviando un mensaje a [lomasdelsolcomite@gmail.com](mailto:lomasdelsolcomite@gmail.com):
    - el **número de incidente** (muy importante, para seguimiento)
    - la **ubicación** del incidente
    - una **descripción** breve del incidente
