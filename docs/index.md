@@ -36,6 +36,10 @@ Enviá sugerencias y consultas a
   <li data-name="normas_de_los_grupos_de_vecinos"><a href="Comunidad/Procedimientos/Normas_de_los_grupos_de_vecinos.html">Normas de los grupos de vecinos</a></li>
   <li data-name="reportar_incidentes_de_seguridad"><a href="Comunidad/Procedimientos/Reportar_incidentes_de_seguridad.html">Reportar incidentes de seguridad</a></li>
 </ul>
+<h2>De_la_Municipalidad</h2>
+<ul>
+  <li data-name="eventos"><a href="De_la_Municipalidad/Eventos.html">Eventos</a></li>
+</ul>
 </div>
 </p>
 
