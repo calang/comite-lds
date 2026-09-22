@@ -11,43 +11,55 @@ Este archivo describe el alcance de cada una de las comisiones creadas bajo el C
 <!-- TOC -->
 * [Comisiones](#comisiones)
   * [1. Comisión de Infraestructura](#1-comisión-de-infraestructura)
-  * [2. Comisión de Comunicación](#2-comisión-de-comunicación)
-  * [3. Comisión de Tecnología](#3-comisión-de-tecnología)
-  * [4. Comisión de Actividades Sociales (Integración, recreación y Bienestar Social)](#4-comisión-de-actividades-sociales-integración-recreación-y-bienestar-social)
-  * [5. Comisión de Salud y Bienestar](#5-comisión-de-salud-y-bienestar)
-  * [6. Comisión de Seguridad](#6-comisión-de-seguridad)
+  * [2. Comisión de Tecnología](#2-comisión-de-tecnología)
+  * [3. Comisión de Actividades Sociales (Integración, recreación y Bienestar Social)](#3-comisión-de-actividades-sociales-integración-recreación-y-bienestar-social)
+  * [4. Comisión de Salud y Bienestar](#4-comisión-de-salud-y-bienestar)
+  * [5. Comisión de Seguridad](#5-comisión-de-seguridad)
 <!-- TOC -->
 
 ## 1. Comisión de Infraestructura
 
 Dirige: Beatriz Pérez (WA: 8357 0373)  
-Apoyan: Mariano Ureña, Max Vargas
+Apoyan: Mariano Ureña
 
 Responsable de identificar, priorizar y dar seguimiento a las necesidades de infraestructura de la comunidad, incluyendo parques, aceras, calles, áreas comunes, iluminación, señalización, mobiliario urbano y demás obras de mejora.
 
 Coordina gestiones ante instituciones públicas y privadas, da seguimiento a proyectos en ejecución y mantiene informados a los vecinos sobre los avances y necesidades detectadas.
 
-## 2. Comisión de Comunicación
+[//]: # (## 2. Comisión de Comunicación)
 
-Dirige: Max Vargas (WA: 8894 1716)  
-Apoya: Carina Cervantes
+[//]: # ()
+[//]: # (Dirige: Max Vargas &#40;WA: 8894 1716&#41;  )
 
-Es la comisión que facilita y agiliza la comunicación entre el comité, la comunidad y las entidades externas. 
+[//]: # (Apoya: Carina Cervantes)
 
-Define métodos y procedimientos para manejar la comunicación
-- entre miembros del comité y las comisiones
-- entre el comité, comisiones y cualquier ente externo como Municipalidad de Curridabat, Fuerza Pública, AyA, CNFL, CONAVI, etc.
+[//]: # ()
+[//]: # (Es la comisión que facilita y agiliza la comunicación entre el comité, la comunidad y las entidades externas. )
 
-Medidas propuestas:
+[//]: # ()
+[//]: # (Define métodos y procedimientos para manejar la comunicación)
 
-- Sistema centralizado de gestión de quejas vía teléfono del comité
-- Coordinar con otras comisiones la línea de comunicación en temas específicos como infraestructura y seguridad
-- Protocolo de moderación claro y sostenible
-- Optimización de estructura actual de grupos
-- Compromiso de participación activa de todos los miembros
+[//]: # (- entre miembros del comité y las comisiones)
 
+[//]: # (- entre el comité, comisiones y cualquier ente externo como Municipalidad de Curridabat, Fuerza Pública, AyA, CNFL, CONAVI, etc.)
 
-## 3. Comisión de Tecnología
+[//]: # ()
+[//]: # (Medidas propuestas:)
+
+[//]: # ()
+[//]: # (- Sistema centralizado de gestión de quejas vía teléfono del comité)
+
+[//]: # (- Coordinar con otras comisiones la línea de comunicación en temas específicos como infraestructura y seguridad)
+
+[//]: # (- Protocolo de moderación claro y sostenible)
+
+[//]: # (- Optimización de estructura actual de grupos)
+
+[//]: # (- Compromiso de participación activa de todos los miembros)
+
+[//]: # ()
+[//]: # ()
+## 2. Comisión de Tecnología
 
 Dirige: Carlos Lang (WA: 8817 0968)
 
@@ -60,9 +72,10 @@ En particular
 - grupos de WhatsApp para la comunicación entre grupos
 - este sitio web, con información de interés y contacto con el comité.
 
-## 4. Comisión de Actividades Sociales (Integración, recreación y Bienestar Social)
+## 3. Comisión de Actividades Sociales (Integración, recreación y Bienestar Social)
 
-Dirigen: Carina Cervantes y Andrea Montero    
+Dirige: Carina Cervantes  
+Colabora: Andrea Montero    
 ~Comisión de Sociales (WA: 6348 0332)
 
 Busca fortalecer la integración, participación y cohesión social de la comunidad mediante actividades recreativas, culturales, educativas y de bienestar. Se enfoca en recuperar y dinamizar parques y espacios públicos, promoviendo su uso positivo por parte de niños, adolescentes, adultos mayores y familias.
@@ -79,7 +92,7 @@ Ejes de trabajo:
 
 [Plan de Trabajo completo](Plan_de_Trabajo_de_la_Comisión_de_Integración_Recreación_y_Acción_Social.md)
 
-## 5. Comisión de Salud y Bienestar
+## 4. Comisión de Salud y Bienestar
 
 Dirige: Mariano Ureña (WA: 8308 4692)  
 Le apoyan: Carina Cervantes
@@ -95,7 +108,7 @@ Ejes de trabajo:
 
 [Estrategia completa](Estrategia_Comisión_Salud.md)
 
-## 6. Comisión de Seguridad
+## 5. Comisión de Seguridad
 Los miembros de esta comisión son confidenciales, por su seguridad personal.
 
 La comisión de seguridad tiene como objetivo principal apoyar la seguridad y protección de los vecinos y sus propiedades, así como coordinar con las autoridades locales y fuerzas de seguridad para implementar medidas preventivas y reactivas ante situaciones de riesgo personal o de las propiedades.
