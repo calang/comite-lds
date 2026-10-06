@@ -8,7 +8,7 @@ import string
 
 logger = logging.getLogger(__name__)
 
-INDEXED_DIRS = ("Comité", "Comunidad", "De_la_Municipalidad")
+INDEXED_DIRS = ("Comité", "Comunidad", "De la Municipalidad")
 
 DESCRIPTION_PARA_LIST = [
     "Punto de referencia para los vecinos de Lomas del Sol, Curridabat."
