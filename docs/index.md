@@ -30,6 +30,10 @@ Enviá sugerencias y consultas a
   <li data-name="mapa_de_lomas_del_sol"><a href="Comunidad/Mapa_de_Lomas_del_Sol.pdf">Mapa de Lomas del Sol</a></li>
   <li data-name="próximas_mejoras"><a href="Comunidad/Próximas_mejoras.html">Próximas mejoras</a></li>
 </ul>
+<h2>Comunidad/En_Desarrollo</h2>
+<ul>
+  <li data-name="que-hacer"><a href="Comunidad/En_Desarrollo/que-hacer.html">que-hacer</a></li>
+</ul>
 <h2>Comunidad/Procedimientos</h2>
 <ul>
   <li data-name="inclusion_en_grupo_principal_wa"><a href="Comunidad/Procedimientos/Inclusion_en_grupo_principal_WA.html">Inclusion en grupo principal WA</a></li>

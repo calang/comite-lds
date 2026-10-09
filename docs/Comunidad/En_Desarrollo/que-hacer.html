@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qué hacer: situaciones a reportar en Curridabat</title>
+<style>
+:root {
+  --texto: #1d1d1f;
+  --fondo: #ffffff;
+  --suave: #f2f4f7;
+  --borde: #d0d5dd;
+  --acento: #0b5cad;
+  --marca: #ffe58a;
+  --marca-activa: #ff9f1a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --texto: #e6e6e6;
+    --fondo: #16181c;
+    --suave: #23262d;
+    --borde: #3a3f48;
+    --acento: #7db4f0;
+    --marca: #6b5a00;
+    --marca-activa: #b35c00;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--texto);
+  background: var(--fondo);
+}
+
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1 { font-size: 1.6rem; line-height: 1.25; }
+h2 { font-size: 1.3rem; margin-top: 2rem; }
+a { color: var(--acento); overflow-wrap: anywhere; }
+li { margin-bottom: 0.4rem; }
+
+.busqueda {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--suave);
+  border-bottom: 1px solid var(--borde);
+  padding: 0.5rem 1rem;
+}
+
+.busqueda form { max-width: 60rem; margin: 0 auto; }
+.busqueda label { font-weight: 600; font-size: 0.9rem; }
+.controles { display: flex; gap: 0.4rem; margin-top: 0.25rem; }
+
+.controles input {
+  flex: 1;
+  min-width: 0;
+  font: inherit;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--borde);
+  border-radius: 0.4rem;
+  background: var(--fondo);
+  color: var(--texto);
+}
+
+.controles button {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--borde);
+  border-radius: 0.4rem;
+  background: var(--fondo);
+  color: var(--texto);
+}
+
+#contador { display: block; min-height: 1.3em; font-size: 0.85rem; }
+
+mark { background: var(--marca); color: inherit; }
+mark.activa { background: var(--marca-activa); outline: 2px solid var(--marca-activa); }
+
+table { border-collapse: collapse; width: 100%; }
+th, td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.6rem;
+  border-bottom: 1px solid var(--borde);
+}
+
+tr.categoria td {
+  background: var(--suave);
+  font-size: 1.15rem;
+  padding-top: 1rem;
+}
+
+/* Celular: cada fila se apila (situación arriba, pasos abajo). */
+@media (max-width: 640px) {
+  .controles button { padding: 0.4rem; }
+  thead { display: none; }
+  table, tbody, tr, td { display: block; width: 100%; }
+  tr { border-bottom: 1px solid var(--borde); padding: 0.5rem 0; }
+  td { border: none; padding: 0.25rem 0; }
+  td:first-child { font-weight: 600; }
+  tr.categoria { border: none; }
+  tr.categoria td { padding: 0.6rem; margin-top: 1rem; }
+  tr.categoria td:empty { display: none; }
+}
+
+</style>
+</head>
+<body>
+<header class="busqueda">
+  <form id="buscador" role="search" autocomplete="off">
+    <label for="consulta">Buscar en la guía</label>
+    <div class="controles">
+      <input id="consulta" type="search" placeholder="Ej.: robo, gas">
+      <button type="button" id="anterior" aria-label="Coincidencia anterior">Anterior</button>
+      <button type="button" id="siguiente" aria-label="Coincidencia siguiente">Siguiente</button>
+    </div>
+    <output id="contador" aria-live="polite"></output>
+  </form>
+</header>
+<main id="contenido">
+<h1>Qué hacer: situaciones a reportar en Curridabat</h1>
+<p>Guía rápida para vecinos del cantón de Curridabat (San José, Costa Rica). Datos verificados el 2026-10-05; confirme los números periódicamente.</p>
+<p><strong>Al llamar al 9-1-1</strong> (gratuito, 24/7; también por la app <em>Emergencias 9-1-1 CR</em>): mantenga la calma, dé la dirección exacta (provincia, cantón, distrito, barrio y señas), describa qué ocurre, cuántas personas están afectadas y si hay niños, adultos mayores o personas con discapacidad. Responda las preguntas del operador y siga sus indicaciones; la llamada dura al menos 20 segundos. No cuelgue hasta que se lo indiquen. El uso indebido del 9-1-1 está sancionado.</p>
+<p><strong>No llame al 9-1-1</strong> por extravío de documentos o del celular, para consultar teléfonos de instituciones, reportar congestión vial o problemas en servicios públicos, ni para pedir asistencia en carretera.</p>
+<p><strong>Regla general:</strong> no confronte ni persiga a nadie. Su seguridad es lo primero. Una llamada al 9-1-1 o a la Fuerza Pública <strong>no reemplaza la denuncia formal</strong>: la denuncia se presenta ante el OIJ o la Fiscalía (Ministerio Público), de preferencia en la más cercana al lugar del hecho o a su domicilio. Cualquier persona puede denunciar, sin importar su edad o nacionalidad, y en el OIJ no se pide ningún requisito. La Oficina de Recepción de Denuncias (ORD) del OIJ en San José atiende 24 horas, todos los días.</p>
+<table>
+<thead>
+<tr>
+<th>Situación</th>
+<th>Pasos a seguir</th>
+</tr>
+</thead>
+<tbody>
+<tr class="categoria">
+<td><strong>Actividades sospechosas</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Persona desconocida merodeando, observando casas o vehículos, probando puertas o portones</td>
+<td>1. No la confronte. Obsérvela desde un lugar seguro.<br>2. Llame al <strong>9-1-1</strong>.<br>3. Describa sexo, edad aproximada, ropa, rasgos y hacia dónde se dirige.<br>4. Avise al grupo de WhatsApp del barrio "Urb Lomas del Sol".</td>
+</tr>
+<tr>
+<td>Vehículo desconocido estacionado mucho tiempo o que pasa repetidamente</td>
+<td>1. Anote placa, marca, modelo, color y número de ocupantes, sin acercarse.<br>2. Repórtelo al <strong>9-1-1</strong>.<br>3. Si sospecha que es robado o que se usa para delinquir, dé la información también a la línea confidencial del <strong>OIJ: 800-8000-645</strong> (800-8000-OIJ; WhatsApp 8800-0645).<br>4. Si parece abandonado o está mal estacionado, sin indicios de delito, repórtelo a la <strong>Policía de Tránsito Municipal: transito.municipal@curridabat.go.cr</strong>.</td>
+</tr>
+<tr>
+<td>Robo o intento de ingreso <strong>en curso</strong> (vivienda, local o vehículo)</td>
+<td>1. Póngase a salvo. No intervenga.<br>2. Llame de inmediato al <strong>9-1-1</strong>.<br>3. Si puede hacerlo sin riesgo, observe rasgos, vehículo y ruta de huida.<br>4. Después, presente la denuncia formal ante el OIJ.</td>
+</tr>
+<tr>
+<td>Encuentra su vivienda o vehículo robado (el hecho ya ocurrió)</td>
+<td>1. No toque ni mueva nada hasta que llegue el OIJ, para preservar huellas y evidencia.<br>2. Llame al <strong>9-1-1</strong> para que envíen a la policía.<br>3. Presente la denuncia en la delegación del <strong>OIJ</strong> más cercana a su domicilio (en San José, en la Oficina de Recepción de Denuncias) con su documento de identidad, o en línea con firma digital (<em>pjenlineacr.poder-judicial.go.cr/AppDenuncia</em>). Si sabe quién fue, preséntela en la Fiscalía más cercana.<br>4. Haga una lista de lo robado con números de serie, fotos o facturas.</td>
+</tr>
+<tr>
+<td>Venta o consumo de drogas en la vía pública o en una vivienda (búnker)</td>
+<td>1. No intervenga ni lo comente públicamente.<br>2. Si ocurre en ese momento, llame al <strong>9-1-1</strong>.<br>3. Para actividad recurrente (venta, almacenamiento o distribución), llame a la <strong>Policía de Control de Drogas: 1176</strong> o use el formulario en línea en <em>seguridadpublica.go.cr/tramites_servicios/denuncias.aspx</em>.<br>4. También puede informar de forma confidencial al <strong>OIJ: 800-8000-645</strong>, WhatsApp 8800-0645 o cicoOIJ@poder-judicial.go.cr. Dé días, horarios, personas y vehículos.</td>
+</tr>
+<tr>
+<td>Persona armada, amenazas o disparos</td>
+<td>1. Resguárdese lejos de puertas y ventanas.<br>2. Llame al <strong>9-1-1</strong> cuando esté a salvo.<br>3. No salga a ver qué pasó hasta que llegue la policía.</td>
+</tr>
+<tr class="categoria">
+<td><strong>Comportamientos inusuales de vecinos o visitantes</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Gritos, golpes o señales de violencia doméstica o contra una mujer</td>
+<td>1. Llame al <strong>9-1-1</strong> (atención 24/7 con enlace al INAMU).<br>2. Dé la dirección exacta y lo que escucha u observa. No intervenga físicamente.<br>3. Para orientación posterior: app <strong>Ela</strong> del INAMU (24/7) o WhatsApp INAMU <strong>8321-8678</strong>.</td>
+</tr>
+<tr>
+<td>Niño, niña o adolescente en riesgo, abandonado o maltratado</td>
+<td>1. Si hay peligro inmediato, llame al <strong>9-1-1</strong> (enlace con el PANI).<br>2. Si no es urgente, llame a la <strong>Línea 1147 del PANI</strong> (gratuita, confidencial, L-D de 7 a.m. a 10 p.m.) o escriba al WhatsApp 8989-1147 (L-V de 7:30 a.m. a 4 p.m.).<br>3. También puede presentar la denuncia en línea en <em>pani.go.cr</em>.</td>
+</tr>
+<tr>
+<td>Persona adulta mayor abandonada, maltratada o explotada</td>
+<td>1. Si hay peligro inmediato, llame al <strong>9-1-1</strong>.<br>2. Para orientación, llame a la <strong>Línea Dorada del CONAPAM: 1165</strong> (24/7).<br>3. Para denunciar un delito, llame al <strong>OIJ: 800-8000-645</strong>.</td>
+</tr>
+<tr>
+<td>Escándalo o ruido excesivo, sobre todo de noche</td>
+<td>1. Si está ocurriendo y altera el orden público, llame al <strong>9-1-1</strong>.<br>2. Si es recurrente (local comercial, fiestas frecuentes, maquinaria), presente una denuncia sanitaria ante el <strong>Ministerio de Salud</strong>: Área Rectora de su zona, tel. <strong>4003-5000</strong> (L-V de 8 a.m. a 4 p.m.) o denuncias.minsa@misalud.go.cr.<br>3. Indique las fechas y horas aproximadas y aporte grabaciones si las tiene.</td>
+</tr>
+<tr>
+<td>Uso inapropiado de parques u otros espacios públicos</td>
+<td>1. Si está ocurriendo en ese momento, llame al <strong>9-1-1</strong> (lo atiende la Fuerza Pública).<br>2. Si es un problema recurrente, repórtelo al Departamento de <strong>Cultura de Paz</strong> de la Municipalidad: <strong>culturadepaz@curridabat.go.cr</strong> o 2216-5324.</td>
+</tr>
+<tr>
+<td>Persona desorientada, perdida o en aparente crisis en la vía pública</td>
+<td>1. Si hay riesgo para su vida o la de terceros, llame al <strong>9-1-1</strong>.<br>2. Manténgase a una distancia prudente y dé su descripción y ubicación.</td>
+</tr>
+<tr class="categoria">
+<td><strong>Vandalismo y daños a la propiedad</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Vandalismo <strong>en curso</strong> (grafiti, daños a vehículos, casas o mobiliario público)</td>
+<td>1. No confronte a los responsables.<br>2. Llame al <strong>9-1-1</strong>.<br>3. Si puede hacerlo sin riesgo, tome fotos o video y anote descripciones.</td>
+</tr>
+<tr>
+<td>Daños ya ocurridos a propiedad privada (vehículo, portón, tapia)</td>
+<td>1. Fotografíe los daños antes de repararlos.<br>2. Reúna videos de cámaras propias o de vecinos.<br>3. Presente la denuncia ante el <strong>OIJ</strong> (en persona o en línea).<br>4. Si tiene póliza, avise a su aseguradora con el número de denuncia.</td>
+</tr>
+<tr>
+<td>Daños a bienes públicos (parques, aceras, huecos en calles municipales, señales, alcantarillas obstruidas o sin tapa, luminarias de parques)</td>
+<td>1. Repórtelo a la <strong>Municipalidad de Curridabat</strong> por correo a <strong>servicios.plataforma@curridabat.go.cr</strong> (requiere firma digital o una nota firmada a mano y adjunta; le asignan un número de seguimiento), o llame al <strong>2216-5200</strong>.<br>2. Si deja un peligro inmediato (por ejemplo, una alcantarilla sin tapa), señalice el lugar si puede y llame al <strong>9-1-1</strong>.</td>
+</tr>
+<tr>
+<td>Robo o daño de cables eléctricos, postes o alumbrado público</td>
+<td>1. No toque cables caídos.<br>2. Si el robo está ocurriendo, llame al <strong>9-1-1</strong>.<br>3. Reporte la avería a la <strong>CNFL: 1026</strong> (24 horas), WhatsApp 8319-5273 o el formulario en línea de <em>cnfl.go.cr</em>.</td>
+</tr>
+<tr>
+<td>Robo de medidores o tapas, o daño en la red de agua o alcantarillado</td>
+<td>1. Si el robo está ocurriendo, llame al <strong>9-1-1</strong>.<br>2. Reporte la avería al <strong>AyA: 800-REPORTE (800-737-6783)</strong>, 24/7, o por la app <em>Servicios AyA</em>.<br>3. Presente la denuncia ante el OIJ si le afecta directamente.</td>
+</tr>
+<tr class="categoria">
+<td><strong>Emergencias médicas y accidentes</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Persona inconsciente, que no respira, con dolor en el pecho, convulsiones o sangrado abundante</td>
+<td>1. Llame al <strong>9-1-1</strong> de inmediato.<br>2. Siga las instrucciones del operador (por ejemplo, RCP o presión sobre la herida).<br>3. No mueva a la persona salvo que corra un peligro inminente.<br>4. Envíe a alguien a guiar a la ambulancia.</td>
+</tr>
+<tr>
+<td>Accidente de tránsito <strong>con heridos</strong></td>
+<td>1. Señalice la zona y protéjase del tránsito.<br>2. Llame al <strong>9-1-1</strong>.<br>3. No mueva a las personas heridas ni los vehículos.<br>4. Espere a la Cruz Roja y a la Policía de Tránsito.</td>
+</tr>
+<tr>
+<td>Choque <strong>sin heridos</strong></td>
+<td>1. Si chocaron solo dos vehículos, no participa una motocicleta, bicimoto, bicicleta ni peatón, el responsable tiene seguro vigente y ambas partes están de acuerdo, pueden usar el <strong>Pacto Amistoso</strong> sin esperar a Tránsito.<br>2. Tomen fotos, video y declaraciones de la escena y de las placas.<br>3. Muevan los vehículos a un lugar seguro o al costado de la vía.<br>4. Avise a su aseguradora y siga sus instrucciones.<br>5. Si no se cumplen esas condiciones o no hay acuerdo, llame al <strong>9-1-1</strong> y espere a Tránsito.</td>
+</tr>
+<tr>
+<td>Incendio en una vivienda, un lote o la vía pública</td>
+<td>1. Evacúe y aleje a las personas.<br>2. Llame al <strong>9-1-1</strong> (Bomberos) desde un lugar seguro.<br>3. No regrese por pertenencias.<br>4. Las quemas de basura o de charral son prohibidas: repórtelas también al 9-1-1.</td>
+</tr>
+<tr>
+<td>Olor o fuga de gas (LPG)</td>
+<td>1. Cierre la llave de paso del gas si puede hacerlo sin riesgo y abra puertas y ventanas.<br>2. No encienda ni apague luces ni aparatos eléctricos.<br>3. Evacúe a todos y llame al <strong>9-1-1</strong> desde fuera de la vivienda.</td>
+</tr>
+<tr>
+<td>Cable eléctrico caído o poste dañado</td>
+<td>1. Manténgase a distancia y alerte a los demás. No lo toque.<br>2. Si hay chispas, fuego o riesgo para personas, llame al <strong>9-1-1</strong>.<br>3. Repórtelo a la <strong>CNFL: 1026</strong> o por WhatsApp 8319-5273.</td>
+</tr>
+<tr class="categoria">
+<td><strong>Clima y desastres naturales</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Inundación o desbordamiento de una quebrada o un río</td>
+<td>1. Aléjese de cauces, puentes y calles inundadas. No las cruce a pie ni en vehículo.<br>2. Si hay personas atrapadas o en riesgo, llame al <strong>9-1-1</strong> y dé la cantidad de personas y si hay personas vulnerables.<br>3. Desconecte la electricidad si el agua entra en la vivienda.<br>4. Siga las alertas oficiales de la <strong>CNE</strong> y las indicaciones del Comité Municipal de Emergencias.<br>5. Si ve un riesgo que todavía no es inminente (cauce obstruido, socavación de márgenes), repórtelo a Gestión del Riesgo de la Municipalidad: <strong>gestion.riesgo@curridabat.go.cr</strong>.</td>
+</tr>
+<tr>
+<td>Deslizamiento, grietas en el terreno o paredes, o hundimientos</td>
+<td>1. Evacúe de inmediato el sitio y las viviendas cercanas.<br>2. Llame al <strong>9-1-1</strong>.<br>3. Repórtelo a Gestión del Riesgo de la Municipalidad (<strong>gestion.riesgo@curridabat.go.cr</strong>) para que lo valore. Si nota grietas o hundimientos sin riesgo inminente, use solo este correo.<br>4. No regrese hasta que las autoridades lo autoricen.</td>
+</tr>
+<tr>
+<td>Árbol caído o a punto de caer sobre la vía, una vivienda o el tendido eléctrico</td>
+<td>1. Aléjese y señalice el lugar si puede hacerlo sin riesgo.<br>2. Si bloquea la vía, cayó sobre una vivienda o hay personas afectadas, llame al <strong>9-1-1</strong>.<br>3. Si toca cables, repórtelo también a la <strong>CNFL (1026)</strong>.<br>4. Si es un riesgo no urgente en un espacio público (árbol o ramas peligrosas), repórtelo a la Municipalidad por correo a <strong>servicios.plataforma@curridabat.go.cr</strong> (requiere firma digital o una nota firmada a mano y adjunta; le asignan un número de seguimiento).</td>
+</tr>
+<tr>
+<td>Sismo</td>
+<td>1. Mantenga la calma y aléjese de ventanas, espejos y objetos que puedan caer.<br>2. No use ascensores durante el sismo ni inmediatamente después. Siga la ruta de evacuación hasta el punto de reunión familiar.<br>3. Si hay heridos, fugas de gas o cables dañados, llame al <strong>9-1-1</strong>.<br>4. Prevención (<strong>CNE</strong>): identifique las llaves del agua y del gas y los interruptores eléctricos, fije a la pared los muebles altos y tenga lista una mochila de emergencia (agua, alimentos no perecederos, botiquín, linterna, radio y baterías, copias de documentos).</td>
+</tr>
+<tr class="categoria">
+<td><strong>Otras situaciones</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Maltrato o abandono de un animal</td>
+<td>1. Documente con fotos, video y testigos.<br>2. Repórtelo a Bienestar Animal de la Municipalidad: <strong>bienestaranimal@curridabat.go.cr</strong>.<br>3. También puede presentar la denuncia ante el <strong>SENASA</strong>: descargue el formulario en <em>senasa.go.cr</em> y entréguelo en una oficina regional del SENASA, o envíelo por la página web si tiene firma digital.  Para orientación: 2587-1600 o info@senasa.go.cr (L-V de 8 a.m. a 4 p.m.).<br>4. Si hay crueldad grave en curso, llame al <strong>9-1-1</strong> o al <strong>OIJ (800-8000-645)</strong>.</td>
+</tr>
+<tr>
+<td>Vehículo mal estacionado que obstruye una entrada, la acera o la vía</td>
+<td>1. Fotografíe el vehículo, la placa y la obstrucción.<br>2. Repórtelo a la <strong>Policía de Tránsito Municipal: transito.municipal@curridabat.go.cr</strong>.<br>3. Si impide el paso de una ambulancia o pone en riesgo a personas, llame al <strong>9-1-1</strong>.</td>
+</tr>
+<tr>
+<td>Casa abandonada</td>
+<td>1. Repórtela a Inspecciones de la Municipalidad: <strong>2216-5295, 2216-5296, 2216-5297 o 2216-5299</strong>.<br>2. Si ve personas ingresando o actividad sospechosa en ese momento, llame al <strong>9-1-1</strong>.</td>
+</tr>
+<tr>
+<td>Información sobre delitos ya cometidos (robos, homicidios, corrupción, lavado de dinero), personas requeridas, prófugas o desaparecidas</td>
+<td>1. Informe de forma confidencial al <strong>Centro de Información Confidencial (CICO) del OIJ: 800-8000-645</strong> (gratuito), WhatsApp 8800-0645 o cicoOIJ@poder-judicial.go.cr.<br>2. Cualquier persona puede reportar, sin importar su edad o nacionalidad.<br>3. Si es víctima o testigo y quiere iniciar un proceso, presente además la denuncia formal ante el OIJ o la Fiscalía.</td>
+</tr>
+<tr>
+<td>Botadero clandestino, basura en la vía pública, animal muerto o lote sucio que genera plagas</td>
+<td>1. Fotografíe el problema y, si es posible, a quien bota la basura y la placa del vehículo.<br>2. Basura o animales muertos en calles, parques o lotes: escriba a <strong>gestion.residuos@curridabat.go.cr</strong> con fotos y dirección exacta.<br>3. Lote abandonado lleno de residuos: repórtelo por correo a <strong>servicios.plataforma@curridabat.go.cr</strong> (requiere firma digital o una nota firmada a mano y adjunta; le asignan un número de seguimiento).<br>4. Si afecta la salud pública (plagas, malos olores, aguas residuales), presente una denuncia sanitaria ante el <strong>Ministerio de Salud</strong> (4003-5000, denuncias.minsa@misalud.go.cr o el formulario digital de denuncias sanitarias de su sitio web).</td>
+</tr>
+</tbody>
+</table>
+<h2>Fuentes consultadas (2026-10-05)</h2>
+<ul>
+<li>Red de Seguridad Distrital de Curridabat y Fuerza Pública, infografía <em>Información de seguridad y atención ciudadana</em>, en <code>docs/archive/llamadas_de_emergencia_CyP_Curri.jpeg</code>: uso del 9-1-1, CICO del OIJ, denuncias y Policía de Control de Drogas (1176).</li>
+<li>Sistema de Emergencias 9-1-1, Ley 7566: <a href="https://www.seguridadpublica.go.cr/estructura/viceministroCPE-UC/seguridad_privada/documentos/comunicados/2022/ley_7566_creacion_sistema_emergencias_911.pdf" rel="noopener" target="_blank">https://www.seguridadpublica.go.cr/estructura/viceministroCPE-UC/seguridad_privada/documentos/comunicados/2022/ley_7566_creacion_sistema_emergencias_911.pdf</a></li>
+<li>App 9-1-1 CR: <a href="https://www.nacion.com/el-pais/como-descargar-y-usar-la-app-del-911-en-costa-rica/BD5HEZDW3ZBT7B5K45IUYZ7EOU/story/" rel="noopener" target="_blank">https://www.nacion.com/el-pais/como-descargar-y-usar-la-app-del-911-en-costa-rica/BD5HEZDW3ZBT7B5K45IUYZ7EOU/story/</a></li>
+<li>OIJ, línea confidencial: <a href="https://www.teletica.com/sucesos/teme-denunciar-asi-puede-reportar-un-delito-ante-el-oij-de-forma-anonima_412438" rel="noopener" target="_blank">https://www.teletica.com/sucesos/teme-denunciar-asi-puede-reportar-un-delito-ante-el-oij-de-forma-anonima_412438</a></li>
+<li>Poder Judicial, denuncia por robo de vivienda: <a href="https://servicios.poder-judicial.go.cr/index.php/servicio?service=35" rel="noopener" target="_blank">https://servicios.poder-judicial.go.cr/index.php/servicio?service=35</a></li>
+<li>OIJ, denuncia en línea: <a href="https://pjenlineacr.poder-judicial.go.cr/AppDenuncia" rel="noopener" target="_blank">https://pjenlineacr.poder-judicial.go.cr/AppDenuncia</a></li>
+<li>Ministerio de Seguridad Pública, programas preventivos: <a href="https://www.seguridadpublica.go.cr/tramites_servicios/dppp/programas_preventivos.aspx" rel="noopener" target="_blank">https://www.seguridadpublica.go.cr/tramites_servicios/dppp/programas_preventivos.aspx</a></li>
+<li>Municipalidad de Curridabat, sitio oficial: <a href="https://www.curridabat.go.cr/" rel="noopener" target="_blank">https://www.curridabat.go.cr/</a> · Directorio: <a href="https://www.curridabat.go.cr/co-directorio-municipal.html" rel="noopener" target="_blank">https://www.curridabat.go.cr/co-directorio-municipal.html</a> · Preguntas frecuentes (reportes de residuos, vías, árboles, alcantarillas, gestión del riesgo, bienestar animal y Cultura de Paz): <a href="https://www.curridabat.go.cr/cc-preguntas-frecuentes.html" rel="noopener" target="_blank">https://www.curridabat.go.cr/cc-preguntas-frecuentes.html</a></li>
+<li>Ministerio de Salud, denuncias sanitarias: <a href="https://www.ministeriodesalud.go.cr/index.php/denuncias/denuncias-sanitarias" rel="noopener" target="_blank">https://www.ministeriodesalud.go.cr/index.php/denuncias/denuncias-sanitarias</a> · Reglamento de ruido 2024: <a href="https://www.ministeriodesalud.go.cr/index.php/prensa/61-noticias-2024/1908-salud-publico-reglamento-para-el-control-del-ruido-e-inicia-capacitaciones-con-los-nuevos-equipos-de-medicion" rel="noopener" target="_blank">https://www.ministeriodesalud.go.cr/index.php/prensa/61-noticias-2024/1908-salud-publico-reglamento-para-el-control-del-ruido-e-inicia-capacitaciones-con-los-nuevos-equipos-de-medicion</a></li>
+<li>INAMU, servicios y app Ela: <a href="https://www.inamu.go.cr/en/-/noticias-servicio-9-1-1-inamu-funciona-horario-24-7" rel="noopener" target="_blank">https://www.inamu.go.cr/en/-/noticias-servicio-9-1-1-inamu-funciona-horario-24-7</a> · <a href="https://delfino.cr/2025/05/inamu-moderniza-sus-servicios-con-ela-una-aplicacion-movil-de-apoyo-e-informacion-para-mujeres" rel="noopener" target="_blank">https://delfino.cr/2025/05/inamu-moderniza-sus-servicios-con-ela-una-aplicacion-movil-de-apoyo-e-informacion-para-mujeres</a></li>
+<li>PANI, Línea 1147: <a href="https://pani.go.cr/linea-gratuita-1147-del-pani-al-servicio-de-los-ninos-ninas-y-adolescentes/" rel="noopener" target="_blank">https://pani.go.cr/linea-gratuita-1147-del-pani-al-servicio-de-los-ninos-ninas-y-adolescentes/</a> · WhatsApp 8989-1147: <a href="https://www.crhoy.com/pani-habilita-numero-para-atender-denuncias-y-dudas-de-adolescentes/" rel="noopener" target="_blank">https://www.crhoy.com/pani-habilita-numero-para-atender-denuncias-y-dudas-de-adolescentes/</a></li>
+<li>CONAPAM, denuncias: <a href="https://conapam.go.cr/servicios/denuncias/maltrato-violencia-y-abandono/" rel="noopener" target="_blank">https://conapam.go.cr/servicios/denuncias/maltrato-violencia-y-abandono/</a></li>
+<li>SENASA, denuncias: <a href="https://crhoy.com/nacionales/asisehace-como-interponer-una-denuncia-ante-senasa/" rel="noopener" target="_blank">https://crhoy.com/nacionales/asisehace-como-interponer-una-denuncia-ante-senasa/</a></li>
+<li>CNFL, averías: <a href="https://www.cnfl.go.cr/averias/averias-servicio-electrico" rel="noopener" target="_blank">https://www.cnfl.go.cr/averias/averias-servicio-electrico</a> · Medios de atención (1026, WhatsApp): <a href="https://www.cnfl.go.cr/contacto/medios-atencion" rel="noopener" target="_blank">https://www.cnfl.go.cr/contacto/medios-atencion</a></li>
+<li>AyA, 800-REPORTE: <a href="https://www.facebook.com/AcueductosyAlcantarilladosCR/videos/informate-sin-riesgo-800-reporte-800-7376783/562771591306130/" rel="noopener" target="_blank">https://www.facebook.com/AcueductosyAlcantarilladosCR/videos/informate-sin-riesgo-800-reporte-800-7376783/562771591306130/</a></li>
+<li>Bomberos, gas LPG: <a href="https://www.bomberos.go.cr/7-evitemos-los-incidentes-con-gas-licuado-de-petroleo/" rel="noopener" target="_blank">https://www.bomberos.go.cr/7-evitemos-los-incidentes-con-gas-licuado-de-petroleo/</a></li>
+<li>Choques sin heridos, Pacto Amistoso (Ley 9078 reformada): <a href="https://www.larepublica.net/noticia/como-resolver-un-choque-leve-sin-llamar-al-trafico-y-no-hacer-presa" rel="noopener" target="_blank">https://www.larepublica.net/noticia/como-resolver-un-choque-leve-sin-llamar-al-trafico-y-no-hacer-presa</a></li>
+<li>CNE, sismos y kit de emergencia: <a href="https://www.telediario.cr/nacional/temblores-costa-rica-que-debe-kit-emergencia" rel="noopener" target="_blank">https://www.telediario.cr/nacional/temblores-costa-rica-que-debe-kit-emergencia</a></li>
+</ul>
+<h2>Notas</h2>
+<ol>
+<li>Falta un contacto policial local no urgente: Curridabat no tiene Policía Municipal de carácter general (solo Policía de Tránsito Municipal), así que los casos de persona o vehículo sospechoso, ruido y vandalismo en curso
+  quedan solo con el 9-1-1. Convendría añadir el teléfono de la delegación de Fuerza Pública de Curridabat, que no encontré (su página daba error 404).</li>
+<li>Policía de Tránsito Municipal: el sitio oficial solo da el correo (transito.municipal@curridabat.go.cr); no aparece en el directorio ni encontré teléfono. Conviene añadirlo si existe.</li>
+<li>La llamada al 9-1-1 no es una denuncia formal: la denuncia se presenta ante el OIJ o la Fiscalía. Lo puse como regla general porque la guía del Poder Judicial envía a las
+  víctimas a esas oficinas, y la infografía de la Red de Seguridad Distrital también remite las denuncias al Ministerio Público y al OIJ. La página del OIJ que lo trataba directamente ya no existe.</li>
+<li>No pude abrir dos fuentes para comprobarlas: la página de la Línea 1147 del PANI bloquea el acceso automatizado, así que el horario «L-D de 7 a.m. a 10 p.m.» queda sin confirmar, y la página de Bomberos sobre gas LPG no cargó (el PDF que se citaba antes daba error 404). Los consejos sobre fugas de gas salen del resumen de esa página en el buscador.</li>
+<li>Fuentes de prensa: los pasos ante un choque sin heridos (Ley 9078 reformada) y los datos de SENASA salen de medios nacionales, no de páginas institucionales.</li>
+</ol>
+<h2>Créditos</h2>
+<p>Este documento fue co-producido con Claude (Anthropic) mediante Claude Code,
+con el modelo Claude Opus 5.5 (<code>claude-opus-5-5</code>)
+y revisado en forma manual.</p>
+</main>
+<script>
+// Búsqueda con resaltado: no distingue mayúsculas ni tildes.
+(function () {
+  'use strict';
+
+  var MINIMO = 2;
+  var contenido = document.getElementById('contenido');
+  var consulta = document.getElementById('consulta');
+  var contador = document.getElementById('contador');
+  var marcas = [];
+  var activa = -1;
+
+  // Devuelve el texto sin tildes y en minúsculas, y para cada carácter
+  // resultante el índice del carácter original del que proviene.
+  function normalizar(texto) {
+    var plano = '';
+    var origen = [];
+    for (var i = 0; i < texto.length; i++) {
+      var base = texto[i].normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .toLowerCase();
+      for (var j = 0; j < base.length; j++) {
+        plano += base[j];
+        origen.push(i);
+      }
+    }
+    return { plano: plano, origen: origen };
+  }
+
+  function limpiar() {
+    marcas.forEach(function (marca) {
+      marca.replaceWith(document.createTextNode(marca.textContent));
+    });
+    contenido.normalize();
+    marcas = [];
+    activa = -1;
+  }
+
+  function resaltarNodo(nodo, buscado) {
+    var texto = normalizar(nodo.nodeValue);
+    var rangos = [];
+    var desde = texto.plano.indexOf(buscado);
+    while (desde !== -1) {
+      var hasta = desde + buscado.length - 1;
+      rangos.push([texto.origen[desde], texto.origen[hasta] + 1]);
+      desde = texto.plano.indexOf(buscado, desde + buscado.length);
+    }
+    // De atrás hacia adelante, para que los índices previos sigan válidos.
+    for (var k = rangos.length - 1; k >= 0; k--) {
+      var rango = document.createRange();
+      rango.setStart(nodo, rangos[k][0]);
+      rango.setEnd(nodo, rangos[k][1]);
+      rango.surroundContents(document.createElement('mark'));
+    }
+  }
+
+  function activar(indice) {
+    if (activa >= 0) {
+      marcas[activa].classList.remove('activa');
+    }
+    activa = (indice + marcas.length) % marcas.length;
+    marcas[activa].classList.add('activa');
+    marcas[activa].scrollIntoView({ block: 'center' });
+    contador.textContent = (activa + 1) + ' de ' + marcas.length;
+  }
+
+  function buscar() {
+    limpiar();
+    var buscado = normalizar(consulta.value.trim()).plano;
+    if (buscado.length < MINIMO) {
+      contador.textContent = '';
+      return;
+    }
+    var recorrido = document.createTreeWalker(contenido, NodeFilter.SHOW_TEXT);
+    var nodos = [];
+    while (recorrido.nextNode()) {
+      nodos.push(recorrido.currentNode);
+    }
+    nodos.forEach(function (nodo) { resaltarNodo(nodo, buscado); });
+    marcas = Array.prototype.slice.call(contenido.querySelectorAll('mark'));
+    if (marcas.length === 0) {
+      contador.textContent = 'Sin resultados';
+    } else {
+      activar(0);
+    }
+  }
+
+  function mover(paso) {
+    if (marcas.length > 0) {
+      activar(activa + paso);
+    }
+  }
+
+  consulta.addEventListener('input', buscar);
+  consulta.addEventListener('keydown', function (evento) {
+    if (evento.key === 'Enter') {
+      evento.preventDefault();
+      mover(evento.shiftKey ? -1 : 1);
+    } else if (evento.key === 'Escape') {
+      consulta.value = '';
+      buscar();
+    }
+  });
+  document.getElementById('buscador').addEventListener('submit', function (e) {
+    e.preventDefault();
+  });
+  document.getElementById('anterior').addEventListener('click', function () {
+    mover(-1);
+  });
+  document.getElementById('siguiente').addEventListener('click', function () {
+    mover(1);
+  });
+}());
+
+</script>
+</body>
+</html>
