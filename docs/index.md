@@ -43,7 +43,7 @@ Enviá sugerencias y consultas a
 <h2>Comunidad/Reuniones Generales/Casetas-2026-10-12</h2>
 <ul>
   <li data-name="reunión-casetas-láminas"><a href="Comunidad/Reuniones Generales/Casetas-2026-10-12/Reunión-Casetas-láminas.pptx">Reunión-Casetas-láminas</a></li>
-  <li data-name="reunión-casetas-minuta"><a href="Comunidad/Reuniones Generales/Casetas-2026-10-12/Reunión-Casetas-Minuta.odt">Reunión-Casetas-Minuta</a></li>
+  <li data-name="reunión-casetas-minuta"><a href="Comunidad/Reuniones Generales/Casetas-2026-10-12/Reunión-Casetas-Minuta.pdf">Reunión-Casetas-Minuta</a></li>
 </ul>
 <h2>De la Municipalidad</h2>
 <ul>
