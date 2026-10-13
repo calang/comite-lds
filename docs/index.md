@@ -40,6 +40,11 @@ Enviá sugerencias y consultas a
   <li data-name="normas_de_los_grupos_de_vecinos"><a href="Comunidad/Procedimientos/Normas_de_los_grupos_de_vecinos.html">Normas de los grupos de vecinos</a></li>
   <li data-name="reportar_incidentes_de_seguridad"><a href="Comunidad/Procedimientos/Reportar_incidentes_de_seguridad.html">Reportar incidentes de seguridad</a></li>
 </ul>
+<h2>Comunidad/Reuniones Generales/Casetas-2026-10-12</h2>
+<ul>
+  <li data-name="reunión-casetas-láminas"><a href="Comunidad/Reuniones Generales/Casetas-2026-10-12/Reunión-Casetas-láminas.pptx">Reunión-Casetas-láminas</a></li>
+  <li data-name="reunión-casetas-minuta"><a href="Comunidad/Reuniones Generales/Casetas-2026-10-12/Reunión-Casetas-Minuta.odt">Reunión-Casetas-Minuta</a></li>
+</ul>
 <h2>De la Municipalidad</h2>
 <ul>
   <li data-name="eventos"><a href="De la Municipalidad/Eventos.html">Eventos</a></li>
